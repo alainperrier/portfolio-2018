@@ -1,0 +1,23 @@
+body{
+  background-color: $grey-dark;
+  font-family: system-ui, BlinkMacSystemFont, -apple-system, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: LatoLatinWebMedium;
+  font-size: 0.8 rem;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-y: scroll;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+}
+
+input:focus, button:focus, textarea:focus {
+  outline: none;
+}
+
+input, textarea{
+  border: none;
+}

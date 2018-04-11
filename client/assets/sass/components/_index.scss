@@ -1,0 +1,696 @@
+/** Sidebarmenu **/
+
+.tip:after {
+  width: 100%;
+}
+
+.tip:after {
+  position: absolute;
+  text-align: center;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  right: 40px;
+  top: -2.5px;
+  background-color: $blue-light;
+  transition: all 0.5s ease-out;
+}
+
+#first-sidenav:after {
+  top: -7.5px;
+}
+
+#second-sidenav:after {
+  top: 13.5px;
+}
+
+#third-sidenav:after {
+  top: 33.5px;
+}
+
+.tip:hover:after {
+  transition: all 0.5s ease-out;
+  animation-name: tooltip;
+  animation-fill-mode: forwards;
+  animation-duration: 2s;
+  content: attr(title);
+  position: absolute;
+  overflow: hidden;
+  width: 60px;
+}
+
+
+/** Radar label positioning **/
+
+
+/** Base 150px **/
+
+.pin-management {
+  left: -35px;
+  top: -30px;
+  transform: translate(0%, 0%);
+}
+
+.pin-gestion {
+  left: -120px;
+  top: 30px;
+  transform: translate(0%, 0%);
+}
+
+.pin-conduite {
+  left: -120px;
+  top: 110px;
+  transform: translate(0%, 0%);
+}
+
+.pin-consulting {
+  left: -35px;
+  bottom: -10px;
+  transform: translate(0%, 100%);
+}
+
+.pin-strategie {
+  right: 45px;
+  bottom: -10px;
+  transform: translate(100%, 100%);
+}
+
+.pin-data {
+  right: -20px;
+  top: 110px;
+  transform: translate(100%, 0%);
+}
+
+.pin-ux {
+  right: -20px;
+  top: 30px;
+  transform: translate(100%, 0%);
+}
+
+.pin-dev {
+  right: 45px;
+  top: -30px;
+  transform: translate(100%, 0%);
+}
+
+
+/** SMP 150px **/
+
+@screen smp {
+  .pin-management {
+    left: -35px;
+    top: -30px;
+    transform: translate(0%, 0%);
+  }
+}
+
+@screen smp {
+  .pin-gestion {
+    left: -130px;
+    top: 30px;
+    transform: translate(0%, 0%);
+  }
+}
+
+@screen smp {
+  .pin-conduite {
+    left: -130px;
+    top: 110px;
+    transform: translate(0%, 0%);
+  }
+}
+
+@screen smp {
+  .pin-consulting {
+    left: -35px;
+    bottom: -10px;
+    transform: translate(0%, 100%);
+  }
+}
+
+@screen smp {
+  .pin-strategie {
+    right: 45px;
+    bottom: -10px;
+    transform: translate(100%, 100%);
+  }
+}
+
+@screen smp {
+  .pin-data {
+    right: -25px;
+    top: 110px;
+    transform: translate(100%, 0%);
+  }
+}
+
+@screen smp {
+  .pin-ux {
+    right: -25px;
+    top: 30px;
+    transform: translate(100%, 0%);
+  }
+}
+
+@screen smp {
+  .pin-dev {
+    right: 45px;
+    top: -30px;
+    transform: translate(100%, 0%);
+  }
+}
+
+
+/** SML 200px **/
+
+@screen sml {
+  .pin-management {
+    left: -20px;
+    top: -50px;
+    transform: translate(0%, 100%);
+  }
+}
+
+@screen sml {
+  .pin-gestion {
+    left: -130px;
+    top: 55px;
+    transform: translate(0%, 0%);
+  }
+}
+
+@screen sml {
+  .pin-conduite {
+    left: -130px;
+    top: 145px;
+    transform: translate(0%, 0%);
+  }
+}
+
+@screen sml {
+  .pin-consulting {
+    left: -20px;
+    bottom: -30px;
+    transform: translate(0%, 0%);
+  }
+}
+
+@screen sml {
+  .pin-strategie {
+    right: 60px;
+    bottom: -30px;
+    transform: translate(100%, 0%);
+  }
+}
+
+@screen sml {
+  .pin-data {
+    right: -30px;
+    top: 145px;
+    transform: translate(100%, 0%);
+  }
+}
+
+@screen sml {
+  .pin-ux {
+    right: -30px;
+    top: 55px;
+    transform: translate(100%, 0%);
+  }
+}
+
+@screen sml {
+  .pin-dev {
+    right: 60px;
+    top: -50px;
+    transform: translate(100%, 100%);
+  }
+}
+
+
+/** MD 200px **/
+
+@screen md {
+  .pin-management {
+    left: -20px;
+    top: -50px;
+    transform: translate(0%, 100%);
+  }
+}
+
+@screen md {
+  .pin-gestion {
+    left: -130px;
+    top: 55px;
+    transform: translate(0%, 0%);
+  }
+}
+
+@screen md {
+  .pin-conduite {
+    left: -130px;
+    top: 145px;
+    transform: translate(0%, 0%);
+  }
+}
+
+@screen md {
+  .pin-consulting {
+    left: -20px;
+    bottom: -30px;
+    transform: translate(0%, 0%);
+  }
+}
+
+@screen md {
+  .pin-strategie {
+    right: 60px;
+    bottom: -30px;
+    transform: translate(100%, 0%);
+  }
+}
+
+@screen md {
+  .pin-data {
+    right: -30px;
+    top: 145px;
+    transform: translate(100%, 0%);
+  }
+}
+
+@screen md {
+  .pin-ux {
+    right: -30px;
+    top: 55px;
+    transform: translate(100%, 0%);
+  }
+}
+
+@screen md {
+  .pin-dev {
+    right: 60px;
+    top: -50px;
+    transform: translate(100%, 100%);
+  }
+}
+
+
+/** LG 250px **/
+
+@screen lg {
+  .pin-management {
+    left: -20px;
+    top: -50px;
+    transform: translate(0%, 100%);
+  }
+}
+
+@screen lg {
+  .pin-gestion {
+    left: -130px;
+    top: 65px;
+    transform: translate(0%, 0%);
+  }
+}
+
+@screen lg {
+  .pin-conduite {
+    left: -145px;
+    top: 175px;
+    transform: translate(0%, 0%);
+  }
+}
+
+@screen lg {
+  .pin-consulting {
+    left: -20px;
+    bottom: -30px;
+    transform: translate(0%, 0%);
+  }
+}
+
+@screen lg {
+  .pin-strategie {
+    right: 80px;
+    bottom: -30px;
+    transform: translate(100%, 0%);
+  }
+}
+
+@screen lg {
+  .pin-data {
+    right: -30px;
+    top: 175px;
+    transform: translate(100%, 0%);
+  }
+}
+
+@screen lg {
+  .pin-ux {
+    right: -30px;
+    top: 65px;
+    transform: translate(100%, 0%);
+  }
+}
+
+@screen lg {
+  .pin-dev {
+    right: 80px;
+    top: -50px;
+    transform: translate(100%, 100%);
+  }
+}
+
+
+/** XL 350px **/
+
+@screen xl {
+  .pin-management {
+    left: 0;
+    top: -50px;
+    transform: translate(0%, 100%);
+  }
+}
+
+@screen xl {
+  .pin-gestion {
+    left: -145px;
+    top: 95px;
+    transform: translate(0%, 0%);
+  }
+}
+
+@screen xl {
+  .pin-conduite {
+    left: -145px;
+    top: 235px;
+    transform: translate(0%, 0%);
+  }
+}
+
+@screen xl {
+  .pin-consulting {
+    left: 0;
+    bottom: -30px;
+    transform: translate(0%, 0%);
+  }
+}
+
+@screen xl {
+  .pin-strategie {
+    right: 100px;
+    bottom: -30px;
+    transform: translate(100%, 0%);
+  }
+}
+
+@screen xl {
+  .pin-data {
+    right: -30px;
+    top: 235px;
+    transform: translate(100%, 0%);
+  }
+}
+
+@screen xl {
+  .pin-ux {
+    right: -30px;
+    top: 95px;
+    transform: translate(100%, 0%);
+  }
+}
+
+@screen xl {
+  .pin-dev {
+    right: 100px;
+    top: -50px;
+    transform: translate(100%, 100%);
+  }
+}
+
+
+/** XXL 400px **/
+
+@screen xxl {
+  .pin-management {
+    left: 15px;
+    top: -50px;
+    transform: translate(0%, 100%);
+  }
+}
+
+@screen xxl {
+  .pin-gestion {
+    left: -145px;
+    top: 110px;
+    transform: translate(0%, 0%);
+  }
+}
+
+@screen xxl {
+  .pin-conduite {
+    left: -145px;
+    top: 265px;
+    transform: translate(0%, 0%);
+  }
+}
+
+@screen xxl {
+  .pin-consulting {
+    left: 15px;
+    bottom: -30px;
+    transform: translate(0%, 0%);
+  }
+}
+
+@screen xxl {
+  .pin-strategie {
+    right: 120px;
+    bottom: -30px;
+    transform: translate(100%, 0%);
+  }
+}
+
+@screen xxl {
+  .pin-data {
+    right: -30px;
+    top: 265px;
+    transform: translate(100%, 0%);
+  }
+}
+
+@screen xxl {
+  .pin-ux {
+    right: -30px;
+    top: 110px;
+    transform: translate(100%, 0%);
+  }
+}
+
+@screen xxl {
+  .pin-dev {
+    right: 120px;
+    top: -50px;
+    transform: translate(100%, 100%);
+  }
+}
+
+
+/** Parcours **/
+
+.pin-bac {
+  left: -1px;
+  top: -10px;
+}
+
+.pin-dut {
+  left: 149px;
+  top: -10px;
+}
+
+.pin-master {
+  left: 299px;
+  top: -10px;
+}
+
+.pin-mastere {
+  left: 449px;
+  top: -10px;
+}
+
+
+/** Timeline **/
+
+.timeline {
+  list-style: none;
+  padding: 20px 0 20px;
+  position: relative;
+}
+
+.timeline:before {
+  top: 0;
+  bottom: 0;
+  position: absolute;
+  content: " ";
+  width: 2px;
+  background-color: $blue-dark;
+  left: 50%;
+  margin-left: -1px;
+}
+
+.timeline>li {
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.timeline>li:before,
+.timeline>li:after {
+  content: " ";
+  display: table;
+}
+
+.timeline>li:after {
+  clear: both;
+}
+
+.timeline>li:before,
+.timeline>li:after {
+  content: " ";
+  display: table;
+}
+
+.timeline>li:after {
+  clear: both;
+}
+
+.timeline>li>.timeline-panel {
+  width: 46%;
+  float: left;
+  border-radius: 2px;
+  padding: 20px;
+  position: relative;
+  background-color: white
+}
+
+.timeline>li>.timeline-panel:before {
+  position: absolute;
+  top: 26px;
+  right: -9px;
+  display: inline-block;
+  content: " ";
+}
+
+.timeline>li>.timeline-panel:after {
+  position: absolute;
+  top: 32px;
+  right: -9px;
+  display: inline-block;
+  border-top: 9px solid transparent;
+  border-left: 9px solid #fff;
+  border-right: 0 solid #fff;
+  border-bottom: 9px solid transparent;
+  content: " ";
+}
+
+.timeline>li>.timeline-badge {
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  font-size: 1.4em;
+  text-align: center;
+  position: absolute;
+  top: 16px;
+  left: 50%;
+  margin-left: -20px;
+  background-color: white;
+  z-index: 100;
+  border-top-right-radius: 50%;
+  border-top-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+  border-bottom-left-radius: 50%;
+  border: 2px solid $blue-dark;
+}
+
+.timeline>li.timeline-inverted>.timeline-panel {
+  float: right;
+}
+
+.timeline>li.timeline-inverted>.timeline-panel:before {
+  border-left-width: 0;
+  border-right-width: 9px;
+  left: -9px;
+  right: auto;
+}
+
+.timeline>li.timeline-inverted>.timeline-panel:after {
+  border-left-width: 0;
+  border-right-width: 9px;
+  left: -9px;
+  right: auto;
+}
+
+.timeline-title {
+  margin-top: 0;
+  color: inherit;
+}
+
+@media (max-width: 767px) {
+  ul.timeline:before {
+    left: 35px;
+  }
+
+  ul.timeline>li>.timeline-panel {
+    width: calc(100% - 90px);
+    width: -moz-calc(100% - 90px);
+    width: -webkit-calc(100% - 90px);
+  }
+
+  ul.timeline>li>.timeline-badge {
+    left: 15px;
+    margin-left: 0;
+    top: 16px;
+  }
+
+  ul.timeline>li>.timeline-panel {
+    float: right;
+  }
+  ul.timeline>li>.timeline-panel:before {
+    border-left-width: 0;
+    border-right-width: 15px;
+    left: -15px;
+    right: auto;
+  }
+
+  ul.timeline>li>.timeline-panel:after {
+    border-left-width: 0;
+    border-right-width: 14px;
+    left: -14px;
+    right: auto;
+  }
+}
+
+.timeline-badge:hover,
+.timeline-badge-hover {
+  transform: scale(1.3);
+}
+
+.expandable span > button:hover {
+  background-color: $blue-dark;
+}
+
+.timeline-heading a:hover{
+  color: $blue-dark;
+}
+
+// .transition-in-progress, .expand[aria-expanded="true"] {
+//   margin-top: 0.8rem;
+//   & > p + p {
+//     margin-top: 0.4rem;
+//   }
+// }

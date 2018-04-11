@@ -1,0 +1,15 @@
+@import '~css-reset-and-normalize/css/flavored-reset-and-normalize';
+@import '~tailwindcss/css/utilities';
+
+@import 'global/fonts';
+@import 'global/transitions';
+@import 'global/variables';
+@import 'global/utilities';
+@import 'global/initializer';
+@import 'global/animations';
+
+@import 'components/navbar';
+@import 'components/page';
+@import 'components/contact';
+@import 'components/index';
+

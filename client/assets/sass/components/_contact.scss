@@ -1,0 +1,146 @@
+.bg-contact {
+  background: url('~/assets/img/145.jpg');
+    height: 100%;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-grey-dark-90{
+  background: rgba(64, 73, 81, .9);
+}
+
+.bg-white-10{
+  background: rgba(255, 255, 255, .1);
+}
+
+form {
+  textarea {
+    resize: vertical;
+  }
+
+  textarea:focus, input:focus {
+    background: rgba(255, 255, 255, .25);
+  }
+
+  .valid{
+    border: $blue-light solid 1px;
+  }
+
+  .invalid {
+    border: $red-light solid 1px;
+  }
+
+  textarea::placeholder, input::placeholder {
+    color: white;
+    font-family: 'LatoLatinWebLight';
+  }
+
+  button:disabled {
+    background-color: $grey;
+  }
+
+  @-webkit-keyframes autofill {
+    to {
+      color: white;
+      background: transparent;
+    }
+  }
+
+  input:-webkit-autofill {
+    -webkit-animation-name: autofill;
+    -webkit-animation-fill-mode: both;
+  }
+}
+
+/** Success animation **/
+
+$brand-success: $blue-light;
+$loader-size: 6em;
+$check-height: $loader-size/2;
+$check-width: $check-height/2;
+$check-left: ($loader-size/6 + $loader-size/12);
+$check-thickness: 4px;
+$check-color: $brand-success;
+
+.circle-loader {
+  border: $check-thickness solid rgba(0, 0, 0, 0.2);
+  border-left-color: $check-color;
+  border-top-color: $check-color;
+  animation-name: loader-spin;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.circle-loader,
+.circle-loader:after {
+  border-radius: 50%;
+  width: $loader-size;
+  height: $loader-size;
+}
+
+.load-complete {
+  -webkit-animation: none;
+  animation: none;
+  border-color: $check-color;
+  transition: border 500ms ease-out;
+}
+
+.checkmark {
+  &.draw:after {
+    animation-duration: 800ms;
+    animation-timing-function: ease;
+    animation-name: checkmark;
+    transform: scaleX(-1) rotate(135deg);
+  }
+
+  &:after {
+    opacity: 1;
+    height: $check-height;
+    width: $check-width;
+    transform-origin: left top;
+    border-right: $check-thickness solid $check-color;
+    border-top: $check-thickness solid $check-color;
+    content: '';
+    left: $check-left;
+    top: $check-height;
+    position: absolute;
+  }
+}
+
+@keyframes loader-spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes checkmark {
+  0% {
+    height: 0;
+    width: 0;
+    opacity: 1;
+  }
+  20% {
+    height: 0;
+    width: $check-width;
+    opacity: 1;
+  }
+  40% {
+    height: $check-height;
+    width: $check-width;
+    opacity: 1;
+  }
+  100% {
+    height: $check-height;
+    width: $check-width;
+    opacity: 1;
+  }
+}

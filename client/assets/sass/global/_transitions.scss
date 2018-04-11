@@ -1,0 +1,78 @@
+.trans-all-fast{
+  transition: all 0.15s ease-out;
+}
+
+.trans-all{
+  transition: all 0.3s ease-out;
+}
+
+.trans-left{
+  transition: left 0.3s ease-out;
+}
+
+/* during entering and leaving : */
+.page-enter-active, .page-leave-active {
+  transition: all 0.2s ease-out;
+}
+
+/* entering start */
+.page-enter {
+  transform:translateX(100%)
+}
+
+/* entering end */
+.page-enter-to {
+  transform:translateX(0%)
+}
+
+/* leaving start */
+.page-leave {
+  transform:translateX(0%)
+}
+
+/* leaving end */
+.page-leave-to {
+  transform:translateX(-100%)
+}
+
+/* during entering and leaving : */
+.fade-enter-active, .fade-leave-active {
+  transition: all 0.3s ease-in-out;
+}
+
+/* entering start */
+.fade-enter {
+  transform:scaleY(0)
+}
+
+/* entering end */
+.fade-enter-to {
+  transform:scaleY(1)
+}
+
+/* leaving start */
+.fade-leave {
+  transform:scaleY(1)
+}
+
+/* leaving end */
+.fade-leave-to {
+  transform:scaleY(0)
+}
+
+/* expandable */
+.expand {
+    overflow: hidden;
+    transition-property: height;
+    transition-duration: .4s; // Durations can be changed without touching JS
+    transition-timing-function: ease-in-out; // Timing functions also!
+
+    &[aria-expanded="false"] {
+        height: 0 !important;
+        transition-timing-function: ease-in-out; // Timing function can be different for each direction
+    }
+}
+
+.u-no-transition {
+    transition-duration: 0s !important;
+}

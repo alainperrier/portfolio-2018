@@ -1,0 +1,71 @@
+nav
+{
+  .avatar{
+    .ripple-container{
+      transform: scale(1.075);
+      z-index: 60;
+      border-radius: 9999px !important;
+      .ripple{
+        border-radius: 9999px !important;
+      }
+    }
+  }
+}
+.arrow-up {
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-bottom: 5px solid $grey-darker;
+}
+
+.avatar:hover img{
+  transform: scale(1.075);
+}
+
+.icons:hover img{
+  transform: scale(1.2);
+}
+
+.avatar:after, .icons:after {
+  width: 100%;
+}
+
+.avatar:after, .icons::after {
+  transition: all 0.5s ease-out;
+  left: 215px;
+  top: 24px
+}
+
+.avatar:hover:after, .icons:hover:after {
+  transition: all 0.5s ease-out;
+  animation-name: tooltip;
+  animation-fill-mode: forwards;
+  animation-duration: 2s;
+  content: attr(title);
+  position: fixed;
+  overflow: hidden;
+  width: auto;
+}
+
+@keyframes tooltip {
+  0% {
+    opacity: 0;
+  }
+
+  25% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 1;
+  }
+
+  75% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}

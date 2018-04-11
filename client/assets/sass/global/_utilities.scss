@@ -1,0 +1,47 @@
+@responsive
+{
+  .w-50-15 {
+    width: calc(50% - 1.5px)
+  }
+}
+
+.h-100-3{
+  height: calc(100% - 3rem)
+}
+
+.pin-r-calc{
+  left: calc(50% - 48px)
+}
+
+.pin-t-59{
+  top: 59px;
+}
+
+.pin-l-15{
+  left:1.5rem;
+}
+
+.pin-center{
+  right: 0;
+  top: 50%;
+}
+
+.origin-top-center {
+  transform-origin: top center;
+}
+
+.origin-center {
+  transform-origin: center;
+}
+
+.first-capitalize {
+  display: block;
+}
+
+.first-capitalize:first-letter {
+  text-transform: uppercase;
+}
+
+.flex1 {
+  flex: 1;
+}
