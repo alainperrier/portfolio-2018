@@ -33,8 +33,56 @@ nav
 
 .avatar:after, .icons::after {
   transition: all 0.5s ease-out;
-  left: 215px;
+  left: 80px;
   top: 24px
+}
+
+@screen smp {
+  .avatar:after, .icons::after {
+    transition: all 0.5s ease-out;
+    left: 215px;
+    top: 24px
+  }
+}
+
+@screen sml {
+  .avatar:after, .icons::after {
+    transition: all 0.5s ease-out;
+    left: 215px;
+    top: 24px
+  }
+}
+
+@screen md {
+  .avatar:after, .icons::after {
+    transition: all 0.5s ease-out;
+    left: 215px;
+    top: 24px
+  }
+}
+
+@screen lg {
+  .avatar:after, .icons::after {
+    transition: all 0.5s ease-out;
+    left: 215px;
+    top: 24px
+  }
+}
+
+@screen xl {
+  .avatar:after, .icons::after {
+    transition: all 0.5s ease-out;
+    left: 215px;
+    top: 24px
+  }
+}
+
+@screen xxl {
+  .avatar:after, .icons::after {
+    transition: all 0.5s ease-out;
+    left: 215px;
+    top: 24px
+  }
 }
 
 .avatar:hover:after, .icons:hover:after {
@@ -68,4 +116,16 @@ nav
   100% {
     opacity: 0;
   }
+}
+
+.dropdown a {
+  color: $blue-light;
+}
+
+.dropdown .technos {
+  color: $grey-dark;
+}
+
+.dropdown a:hover{
+  color: $blue-dark;
 }

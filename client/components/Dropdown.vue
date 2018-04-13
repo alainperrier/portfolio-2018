@@ -1,7 +1,7 @@
 <template>
   <transition name="fade">
     <div
-      class="fixed pin-t-59 pin-l-15 shadow-md 4 min-w-220px max-w-220px max-h-1/9 text-grey-darker z-50 origin-top-center">
+      class="dropdown fixed pin-t-59 pin-l-15 shadow-md 4 min-w-220px max-w-220px max-h-1/9 text-grey-darker z-50 origin-top-center">
       <div
         :style="{ left: currentItemArrowPosition + 'px' }"
         class="arrow-up relative trans-left"/>
@@ -12,7 +12,7 @@
         v-for="(item, index) in currentItemContent"
         :key="(item, index)"
         :class="{'bg-white': !(index % 2), 'bg-grey-lightest': index % 2 }"
-        class="flex items-center pt-3 pb-3 pr-4 pl-4 font-lato-light text-xs leading-tight tracking-wide">
+        class="flex items-center pt-3 pb-3 pr-4 pl-4 font-lato-light text-xs leading-normal tracking-wide">
         <img
           v-if="item.image != null"
           :src="require('~/assets/img/' + item.image)"

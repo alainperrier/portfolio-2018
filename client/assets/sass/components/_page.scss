@@ -1,3 +1,16 @@
 .subpage {
   height: calc(100vh - 59px) //Full vh except top fixed nav
 }
+
+@media (max-height: 525px) {
+  .heightfix-graph {
+    height: auto;
+  }
+}
+
+@media (max-width: 425px) and (max-height: 525px) {
+  .heightfix-land {
+    height: auto;
+  }
+}
+

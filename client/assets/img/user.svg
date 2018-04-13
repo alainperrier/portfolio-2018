@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Calque_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 400 400" style="enable-background:new 0 0 400 400;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#404950;}
+	.st1{fill:#FFFFFF;}
+</style>
+<title>Plan de travail 1</title>
+<g id="Dark_Blue">
+	<rect class="st0" width="400" height="400"/>
+</g>
+<g>
+	<g id="person">
+		<path class="st1" d="M200,200c23.1,0,42-18.9,42-42s-18.9-42-42-42s-42,18.9-42,42S176.9,200,200,200z M200,221
+			c-28.4,0-84,13.7-84,42v21h168v-21C284,234.7,228.4,221,200,221z"/>
+	</g>
+</g>
+</svg>

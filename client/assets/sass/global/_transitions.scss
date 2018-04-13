@@ -76,3 +76,13 @@
 .u-no-transition {
     transition-duration: 0s !important;
 }
+
+.hide-enter-active, .hide-leave-active {
+  transition: opacity 1s;
+}
+.hide-enter, .hide-leave-to /* .fade-leave-active below version 2.1.8 */ {
+  opacity: 0;
+}
+.hide-to, .hide-leave /* .fade-leave-active below version 2.1.8 */ {
+  opacity: 1;
+}

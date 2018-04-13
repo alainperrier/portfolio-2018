@@ -4,7 +4,7 @@
     <li
       v-ripple
       id="0"
-      class="avatar flex mr-8 cursor-pointer items-center rounded-full"
+      class="avatar flex mr-8 cursor-pointer items-center rounded-full flex-no-shrink"
       title="Profil"
       @click="open(0)">
       <picture class="flex rounded-full">
@@ -22,19 +22,20 @@
     <li
       v-ripple="'rgba(64, 73, 81, 0.35)'"
       id="1"
-      class="icons mr-4 cursor-pointer p-2 origin-center items-center
+      class="icons mr-4 cursor-pointer p-2 origin-center items-center relative flex-no-shrink
       hidden smp:flex sml:flex md:flex lg:flex xl:flex xxl:flex"
       title="Notifications"
       @click="open(1)">
       <img
-        class="w-15px h-15px flex trans-all-fast"
-        src="~assets/img/experience.svg"
-        alt="Projets">
+        class="flex w-18px h-18px trans-all-fast"
+        src="~assets/img/bell.svg"
+        alt="Notifications">
+      <span class="absolute flex items-center justify-center w-10px h-10px bg-red-light rounded-full text-xxxs pin-t pin-r font-lato-medium z-9999">1</span>
     </li>
     <li
       v-ripple="'rgba(64, 73, 81, 0.35)'"
       id="2"
-      class="icons mr-4 cursor-pointer p-2 origin-center items-center
+      class="icons mr-4 cursor-pointer p-2 origin-center items-center flex-no-shrink
       hidden smp:flex sml:flex md:flex lg:flex xl:flex xxl:flex"
       title="Projets"
       @click="open(2)">
@@ -46,14 +47,14 @@
     <li
       v-ripple="'rgba(64, 73, 81, 0.35)'"
       id="3"
-      class="icons mr-4 cursor-pointer p-2 origin-center items-center
+      class="icons mr-4 cursor-pointer p-2 origin-center items-center flex-no-shrink
       hidden smp:flex sml:flex md:flex lg:flex xl:flex xxl:flex"
-      title="Autres"
+      title="Technos"
       @click="open(3)">
       <img
         class="w-15px h-15px flex trans-all-fast"
-        src="~assets/img/experience.svg"
-        alt="Projets">
+        src="~assets/img/wrench.svg"
+        alt="Technos">
     </li>
   </ul>
 </template>

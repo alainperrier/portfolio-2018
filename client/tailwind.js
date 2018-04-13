@@ -177,6 +177,7 @@ module.exports = {
   */
 
   textSizes: {
+    xxxs: '.15rem',
     xxs: '.5rem',
     xs: '.7rem', // 12px
     sm: '.80rem', // 14px
@@ -380,6 +381,7 @@ module.exports = {
     '12px': '12px',
     '15px': '15px',
     '17-5px': '17.5px',
+    '18px': '18px',
     '20px': '20px',
     '25px': '25px',
     '30px': '30px',
@@ -463,6 +465,7 @@ module.exports = {
     '12px': '12px',
     '15px': '15px',
     '17-5px': '17.5px',
+    '18px': '18px',
     '20px': '20px',
     '30px': '30px',
     '40px': '40px',
@@ -559,7 +562,11 @@ module.exports = {
     screen: '100vh',
     '50px': '50px',
     '100px': '100px',
-    '150px': '150px'
+    '150px': '150px',
+    '200px': '200px',
+    '300px': '300px',
+    '450px': '450px',
+    '500px': '500px'
   },
 
   /*

@@ -2,7 +2,8 @@
   <page :current-margin-top="currentMarginTop">
     <sub-page
       :current-margin-top="currentMarginTop"
-      class="bg-white bg-contact">
+      class="bg-white bg-contact
+      min-h-500px smp:min-h-300px sml:min-h-300px md:min-h-0 lg:min-h-0 xl:min-h-0 xxl:min-h-0">
       <div
         class="flex flex-col items-center justify-center w-full h-100-3 relative
         p-4 smp:p-3 sml:p-3 md:p-8 lg:p-8 xl:p-8 xxl:p-8
@@ -125,7 +126,7 @@
                         :class="{ 'invalid': form.errors.has('message') || (errors.has('message')), 'valid': fields.message && fields.message.valid && fields.message.validated }"
                         name="message"
                         class="appearance-none rounded-sm w-full bg-white-10 border-solid border-white border trans-all p-3
-                        min-h-100px smp:min-h-50px sml:min-h-50px md:min-h-150px lg:min-h-150px xl:min-h-150px xxl:min-h-150px
+                        min-h-100px smp:min-h-50px sml:min-h-100px md:min-h-150px lg:min-h-150px xl:min-h-150px xxl:min-h-200px
                         max-h-200px"
                         placeholder="Message"/>
                     </div>
@@ -158,7 +159,7 @@
           </div>
           <div
             class="w-full bg-grey-dark-90 items-center justify-center flex-no-shrink
-            flex smp:hidden sml:hidden md:flex lg:flex xl:flex xxl:flex">
+            flex smp:hidden sml:flex md:flex lg:flex xl:flex xxl:flex">
             <div
               class="flex w-full pt-3 pb-3 pl-11 pr-11 items-center text-white text-sm justify-center">
               <div
@@ -204,18 +205,8 @@
         </div>
       </div>
       <div
-        class="flex flex-row items-end w-full h-12 pr-8 pl-8 pb-3
+        class="flex flex-row items-end w-full h-12 pr-8 pl-8 pb-4
         justify-center smp:justify-center sml:justify-center md:justify-end lg:justify-end xl:justify-end xxl:justify-end">
-        <div class="mr-6">
-          <a
-            class="flex"
-            href="https://github.com/oXg3n"
-            target="_blank">
-            <img
-              src="~/assets/img/github.svg"
-              class="w-30px h-30px">
-          </a>
-        </div>
         <div class="mr-6">
           <a
             class="flex"

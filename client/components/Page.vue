@@ -35,61 +35,76 @@ export default {
           title: 'Profil',
           content: [
             {
+              image: 'user.svg',
               content: 'Alain Perrier'
             },
             {
+              image: 'date.svg',
               content: '25 ans'
             },
             {
+              image: 'position.svg',
               content: 'Grenoble'
+            },
+            {
+              image: 'hashtag.svg',
+              content: '#Polyvalent #Autodidacte #Passionné #Digital'
             }
           ]
         },
         {
-          name: 'experience',
+          name: 'notifications',
           arrowPosition: null,
           totalSpace: null,
-          title: 'Projets en cours',
+          title: 'Notifications',
           content: [
             {
-              image: 'github.svg',
-              content: 'Release an english version of my website'
-            },
-            {
-              image: 'linkedin.svg',
+              image: 'construction.svg',
               content:
-                'Accompagner <a href="https://la-studio.fr" target="_blank">LA-Studio</a> dans le lancement de son activité'
+                'Ce site est en cours de construction... Suivez l\'avancement sur <a href="https://trello.com/b/WX9UYn9x/portfolio-nuxt" target="_blank" class="trans-all-fast">Trello</a>'
+            }
+          ]
+        },
+        {
+          name: 'projects',
+          arrowPosition: null,
+          totalSpace: null,
+          title: 'Projets',
+          content: [
+            {
+              image: 'postit-pink.svg',
+              content: 'Release an english version of my website and LinkedIn profile'
             },
             {
-              image: 'linkedin.svg',
+              image: 'postit-orange.svg',
+              content: "Améliorer ce site pour continuer d'apprendre dans le développement web"
+            },
+            {
+              image: 'postit-green.svg',
               content: 'Rechercher un emploi de Product Owner sur Grenoble'
             }
           ]
         },
         {
-          name: 'experience',
+          name: 'technos',
           arrowPosition: null,
           totalSpace: null,
-          title: 'Notifications importantes',
+          title: 'Technos',
           content: [
             {
-              content: 'Ce site est en cours de construction... En attendant, retrouvez la roadmap sur Trello'
-            }
-          ]
-        },
-        {
-          name: 'experience',
-          arrowPosition: null,
-          totalSpace: null,
-          title: 'Expériences marquantes',
-          content: [
-            {
-              image: 'github.svg',
-              content: '3 ans en tant que chef de projet à la Banque Populaire'
+              image: 'vue.svg',
+              content:
+                '<a href="https://vuejs.org/" target="_blank" class="technos trans-all-fast">VueJS</a> | Framework JavaScript'
             },
             {
-              image: 'linkedin.svg',
-              content: '2 ans en tant que chef de projet web chez LA-Studio'
+              image: 'nuxt.svg',
+              content:
+                '<a href="https://fr.nuxtjs.org/" target="_blank" class="technos trans-all-fast">NuxtJs</a> | Framework Node.js pour le rendu côté serveur'
+            },
+            {
+              image: 'laravel.svg',
+              content:
+                '<a href="https://laravel.com/" target="_blank" class="technos trans-all-fast">Laravel</a> | Framework PHP'
             }
           ]
         }

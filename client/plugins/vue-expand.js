@@ -16,7 +16,7 @@ Vue.directive('expand', {
         el.classList.add('u-no-transition')
         el.removeAttribute('aria-expanded')
         el.style.height = null
-        el.style.height = el.clientHeight + 'px'
+        el.style.height = el.clientHeight + 1 + 'px' // + 1px fix for overflow hidden
         el.setAttribute('aria-expanded', currentState)
 
         setTimeout(function() {
