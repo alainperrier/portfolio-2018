@@ -1161,7 +1161,7 @@ export default {
     },
     currentSize: function(index) {
       if (this.skillItem == index) {
-        return 2
+        return 2.5
       }
       return 1.1
     },

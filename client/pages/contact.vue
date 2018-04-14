@@ -2,7 +2,7 @@
   <page :current-margin-top="currentMarginTop">
     <sub-page
       :current-margin-top="currentMarginTop"
-      class="bg-white bg-contact
+      class="bg-grey-lightest bg-contact
       min-h-500px smp:min-h-300px sml:min-h-300px md:min-h-0 lg:min-h-0 xl:min-h-0 xxl:min-h-0">
       <div
         class="flex flex-col items-center justify-center w-full h-100-3 relative

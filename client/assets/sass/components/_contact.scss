@@ -1,10 +1,113 @@
 .bg-contact {
-    background: url('~/assets/img/contact-xxl.jpg');
+    background: url('~/assets/img/contact-sm.jpg');
     /* Center and scale the image nicely */
+    background-repeat: no-repeat;
+    background-position: center 10%;
+    background-size: cover;
+    image-rendering: -moz-crisp-edges;         /* Firefox */
+    image-rendering:   -o-crisp-edges;         /* Opera */
+    image-rendering: -webkit-optimize-contrast;/* Webkit (non-standard naming) */
+    image-rendering: crisp-edges;
+    -ms-interpolation-mode: nearest-neighbor;
+}
+
+@screen smp {
+  .bg-contact {
+      background: url('~/assets/img/contact-sm.jpg');
+      background-repeat: no-repeat;
+      background-position: center 10%;
+      background-size: cover;
+      image-rendering: -moz-crisp-edges;         /* Firefox */
+      image-rendering:   -o-crisp-edges;         /* Opera */
+      image-rendering: -webkit-optimize-contrast;/* Webkit (non-standard naming) */
+      image-rendering: crisp-edges;
+      -ms-interpolation-mode: nearest-neighbor;
+  }
+}
+
+@screen sml {
+  .bg-contact {
+      background: url('~/assets/img/contact-sml.jpg');
+      background-position: center 10%;
+      background-repeat: no-repeat;
+      background-size: cover;
+      image-rendering: -moz-crisp-edges;         /* Firefox */
+      image-rendering:   -o-crisp-edges;         /* Opera */
+      image-rendering: -webkit-optimize-contrast;/* Webkit (non-standard naming) */
+      image-rendering: crisp-edges;
+      -ms-interpolation-mode: nearest-neighbor;
+  }
+}
+
+@screen md {
+  .bg-contact {
+      background: url('~/assets/img/contact-md.jpg');
+      background-position: center 10%;
+      background-repeat: no-repeat;
+      background-size: cover;
+      image-rendering: -moz-crisp-edges;         /* Firefox */
+      image-rendering:   -o-crisp-edges;         /* Opera */
+      image-rendering: -webkit-optimize-contrast;/* Webkit (non-standard naming) */
+      image-rendering: crisp-edges;
+      -ms-interpolation-mode: nearest-neighbor;
+  }
+}
+
+@screen lg {
+  .bg-contact {
+      background: url('~/assets/img/contact-lg.jpg');
+      background-position: center 10%;
+      background-repeat: no-repeat;
+      background-size: cover;
+      image-rendering: -moz-crisp-edges;         /* Firefox */
+      image-rendering:   -o-crisp-edges;         /* Opera */
+      image-rendering: -webkit-optimize-contrast;/* Webkit (non-standard naming) */
+      image-rendering: crisp-edges;
+      -ms-interpolation-mode: nearest-neighbor;
+  }
+}
+
+@screen xl {
+  .bg-contact {
+      background: url('~/assets/img/contact-xl.jpg');
+      background-position: center 10%;
+      background-repeat: no-repeat;
+      image-rendering: -moz-crisp-edges;         /* Firefox */
+      image-rendering:   -o-crisp-edges;         /* Opera */
+      image-rendering: -webkit-optimize-contrast;/* Webkit (non-standard naming) */
+      image-rendering: crisp-edges;
+      -ms-interpolation-mode: nearest-neighbor;
+  }
+}
+
+@screen xxl {
+  .bg-contact {
+      background: url('~/assets/img/contact-xxl.jpg');
+      background-position: center 10%;
+      background-repeat: no-repeat;
+      background-size: cover;
+      image-rendering: -moz-crisp-edges;         /* Firefox */
+      image-rendering:   -o-crisp-edges;         /* Opera */
+      image-rendering: -webkit-optimize-contrast;/* Webkit (non-standard naming) */
+      image-rendering: crisp-edges;
+      -ms-interpolation-mode: nearest-neighbor;
+  }
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5) {
+  .bg-contact {
+    background: url('~/assets/img/contact-xxl.jpg');
     background-position: center 10%;
     background-repeat: no-repeat;
     background-size: cover;
+    image-rendering: -moz-crisp-edges;         /* Firefox */
+    image-rendering:   -o-crisp-edges;         /* Opera */
+    image-rendering: -webkit-optimize-contrast;/* Webkit (non-standard naming) */
+    image-rendering: crisp-edges;
+    -ms-interpolation-mode: nearest-neighbor;
+  }
 }
+
 
 .bg-grey-dark-90{
   background: rgba(64, 73, 81, .9);
