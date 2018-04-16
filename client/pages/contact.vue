@@ -253,6 +253,35 @@ export default {
       })
     }
   },
+  head: function() {
+    return {
+      title: 'Alain Perrier | Me contacter',
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content:
+            "Vous recherchez un chef de projet, Product Owner, ou consultant ? Contactez-moi sans plus attendre, je serais ravi d'échanger avec vous."
+        },
+        {
+          hid: 'og:title',
+          name: 'og:title',
+          content: 'Alain Perrier | Me contacter'
+        },
+        {
+          hid: 'og:description',
+          name: 'og:description',
+          content:
+            "Vous recherchez un chef de projet, Product Owner, ou consultant ? Contactez-moi sans plus attendre, je serais ravi d'échanger avec vous."
+        },
+        {
+          hid: 'apple-mobile-web-app-title',
+          name: 'apple-mobile-web-app-title',
+          content: 'Alain Perrier | Me contacter'
+        }
+      ]
+    }
+  },
   computed: {
     isOpened: function() {
       return this.$store.state.contact == true

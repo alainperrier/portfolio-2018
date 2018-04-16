@@ -1,8 +1,12 @@
 <template>
-  <div class="h-full">
-    <navbar ref="navbar"/>
-    <nuxt/>
-  </div>
+  <transition
+    name="page"
+    mode="out-in">
+    <div class="h-full">
+      <navbar ref="navbar"/>
+      <nuxt/>
+    </div>
+  </transition>
 </template>
 
 <style src="~/assets/sass/app.scss" lang="scss">

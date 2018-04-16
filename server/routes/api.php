@@ -13,8 +13,4 @@ use Illuminate\Http\Request;
 |
 */
 
-Route::get('/test', function () {
-    return ['Dummy', 'Data'];
-});
-
 Route::post('/contact', 'ContactController@store');

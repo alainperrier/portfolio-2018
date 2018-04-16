@@ -69,7 +69,7 @@ export default {
           name: 'projects',
           arrowPosition: null,
           totalSpace: null,
-          title: 'Projets',
+          title: 'Projets en cours',
           content: [
             {
               image: 'postit-pink.svg',
@@ -89,7 +89,7 @@ export default {
           name: 'technos',
           arrowPosition: null,
           totalSpace: null,
-          title: 'Technos',
+          title: 'Technos utilisées ici',
           content: [
             {
               image: 'vue.svg',
