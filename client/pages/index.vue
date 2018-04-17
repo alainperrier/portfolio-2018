@@ -72,7 +72,7 @@
                     class="flex min-h-150px max-h-400px
                     h-150px smp:h-150px sml:h-170px md:h-250px lg:h-300px xl:h-350px xxl:h-400px"
                     src="~assets/img/logo.svg"
-                    alt="Logo">
+                    alt="Logo Alain Perrier">
                   <h1
                     class="truncate
                     text-lg smp:text-base sml:text-base md:text-xl lg:text-2xl xl:text-2xl xxl:text-3xl">
@@ -116,7 +116,8 @@
                             <img
                               slot="img"
                               src="~/assets/img/download.svg"
-                              class="h-12px mr-3">
+                              class="h-12px mr-3"
+                              alt="Visuel téléchargement">
                             <span slot="text">Mon CV</span>
                           </btn>
                         </a>
@@ -178,7 +179,8 @@
               <img
                 slot="img"
                 src="~/assets/img/arrow-scroll.svg"
-                class="h-12">
+                class="h-12"
+                alt="Visuel scroll">
             </span>
           </div>
         </sub-page>
@@ -222,7 +224,8 @@
                   <span class="mr-8 smp:mr-5">
                     <img
                       class="w-20px smp:w-20px sml:w-25px md:w-30px lg:w-35px xl:w-35px xxl:w-35px"
-                      src="~assets/img/flask.svg">
+                      src="~assets/img/flask.svg"
+                      alt="Expérience">
                   </span>
                   <div class="max-w-100px smp:max-w-150px sml:max-w-100px md:max-w-none lg:max-w-none xl:max-w-none xxl:max-w-none">
                     <p><span class="font-semibold">Plus de 3 ans</span> d'expérience</p>
@@ -247,7 +250,8 @@
                   <span class="mr-8 sml:mr-5 smp:mr-5">
                     <img
                       class="w-25px smp:w-25px sml:w-30px md:w-35px lg:w-40px xl:w-40px xxl:w-40px"
-                      src="~assets/img/heart.svg">
+                      src="~assets/img/heart.svg"
+                      alt="Passion">
                   </span>
                   <div class="max-w-100px smp:max-w-100px sml:max-w-100px md:max-w-none lg:max-w-none xl:max-w-none xxl:max-w-none">
                     <p>Passionné par le <span class="font-semibold">#digital</span></p>
@@ -938,7 +942,8 @@
                 <div class="w-20px mr-3 flex-no-shrink">
                   <img
                     src="~assets/img/CM.svg"
-                    class="w-full">
+                    class="w-full"
+                    alt="logo Crédit Mutuel">
                 </div>
                 <p>
                   Groupe Crédit Mutuel CM11
