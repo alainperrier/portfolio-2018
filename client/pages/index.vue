@@ -708,7 +708,8 @@
                     <a
                       href="https://www.amazon.fr/digital-expliqu%C3%A9-mon-boss-aimeraient/dp/2367781354/ref=sr_1_1?ie=UTF8&qid=1523534135&sr=8-1&keywords=le+digital+expliqu%C3%A9+%C3%A0+mon+boss&dpID=51jMwRy-X-L&preST=_SY291_BO1,204,203,200_QL40_&dpSrc=srch"
                       class="text-grey-dark trans-all"
-                      target="_blank">
+                      target="_blank"
+                      rel="noopener noreferrer">
                       Digital expliqué à mon boss
                     </a>
                   </span>
