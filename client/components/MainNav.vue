@@ -52,7 +52,7 @@ export default {
       return orderedItems
     }
   },
-  mounted: function() {
+  created: function() {
     this.prepareCurrentItem(this.items)
     if (process.browser) {
       let t = setInterval(() => {
