@@ -5,7 +5,7 @@
       v-if="opened()"
       :items="items"/>
     <div
-      :style="{ marginTop: currentMarginTop + 'px'}"
+      :style="{ marginTop: currentMarginTop == null ? 0 : currentMarginTop + 'px'}"
       class="mt-59px">
       <slot/>
     </div>

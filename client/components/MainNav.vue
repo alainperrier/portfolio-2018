@@ -17,7 +17,7 @@
         </li>
         <li class="w-full absolute pin-b pin-r h-0">
           <div
-            :style="{ width: currentWidth == null ? 0 : currentWidth + 'px', height: defaultHeight + 'px', marginLeft: 'calc(' + currentMargin + 'px + ' + currentExtraMargin + 'rem)'}"
+            :style="{ width: currentWidth == null ? 0 : currentWidth + 'px', height: defaultHeight == null ? 0 : defaultHeight + 'px', marginLeft: currentMargin == null && currentExtraMargin == null ? 0 : 'calc(' + currentMargin + 'px + ' + currentExtraMargin + 'rem)'}"
             class="mt-1 w-0 h-0 bg-blue-light border-none trans-all"/>
         </li>
       </ul>
