@@ -109,7 +109,8 @@
                         <a
                           href="/CV-Alain-Perrier.pdf"
                           class="text-white"
-                          target="_blank">
+                          target="_blank"
+                          rel="noopener noreferrer">
                           <btn
                             v-ripple
                             class="trans-all bg-red-light flex flex-no-shrink items-center justify-center h-30px truncate">
@@ -146,7 +147,8 @@
               <a
                 class="flex"
                 href="https://twitter.com/perrieral"
-                target="_blank">
+                target="_blank"
+                rel="noopener noreferrer">
                 <img
                   src="~/assets/img/twitter.svg"
                   class="w-30px h-30px"
@@ -157,7 +159,8 @@
               <a
                 class="flex"
                 href="https://www.linkedin.com/in/alainperrier"
-                target="_blank">
+                target="_blank"
+                rel="noopener noreferrer">
                 <img
                   src="~/assets/img/linkedin.svg"
                   class="w-30px h-30px"
@@ -521,7 +524,8 @@
               <a
                 class="trans-all inline-flex text-grey-dark flex flex-row items-center"
                 href="https://la-studio.fr"
-                target="_blank">
+                target="_blank"
+                rel="noopener noreferrer">
                 <div class="w-20px mr-3 flex-no-shrink">
                   <img
                     class="w-full"
@@ -549,7 +553,8 @@
                   <a
                     class="text-grey-dark trans-all"
                     href="https://cabinet-schmidt.com"
-                    target="_blank">
+                    target="_blank"
+                    rel="noopener noreferrer">
                     Cabinet Schmidt
                   </a>
                 </li>
@@ -601,7 +606,8 @@
               <a
                 class="inline-flex trans-all text-grey-dark flex flex-row items-center"
                 href="https://www.bpaura.banquepopulaire.fr/portailinternet/Pages/default.aspx"
-                target="_blank">
+                target="_blank"
+                rel="noopener noreferrer">
                 <div class="flex-no-shrink w-25px mr-3">
                   <img
                     class="w-full"
@@ -666,7 +672,8 @@
               <a
                 class="inline-flex trans-all text-grey-dark flex flex-row items-center"
                 href="https://www.grenoble-em.com/mastere-specialise-strategie-digitale"
-                target="_blank">
+                target="_blank"
+                rel="noopener noreferrer">
                 <div class="w-20px mr-3 flex-no-shrink">
                   <img
                     class="w-full"
@@ -690,7 +697,8 @@
                   <a
                     href="http://digital-me-up.com/"
                     class="text-grey-dark trans-all"
-                    target="_blank">
+                    target="_blank"
+                    rel="noopener noreferrer">
                     Digital me UP
                   </a>
                 </li>
@@ -709,7 +717,8 @@
                   <a
                     href="http://www.altigliss.com/"
                     class="text-grey-dark trans-all"
-                    target="_blank">
+                    target="_blank"
+                    rel="noopener noreferrer">
                     Altigliss Challenge
                   </a>
                 </li>
@@ -754,7 +763,8 @@
               <a
                 class="inline-flex trans-all text-grey-dark flex flex-row items-center"
                 href="https://www.bsb-education.com/"
-                target="_blank">
+                target="_blank"
+                rel="noopener noreferrer">
                 <div class="w-35px mr-3 flex-no-shrink">
                   <img
                     class="w-full"
@@ -819,7 +829,8 @@
               <a
                 class="inline-flex trans-all text-grey-dark flex flex-row items-center"
                 href="https://leadformance.com"
-                target="_blank">
+                target="_blank"
+                rel="noopener noreferrer">
                 <div class="w-30px mr-3 flex-no-shrink">
                   <img
                     class="w-full"
@@ -883,7 +894,8 @@
               <a
                 class="inline-flex trans-all text-grey-dark flex flex-row items-center"
                 href="https://creditmutuel.fr"
-                target="_blank">
+                target="_blank"
+                rel="noopener noreferrer">
                 <div class="w-20px mr-3 flex-no-shrink">
                   <img
                     src="~assets/img/CM.svg"
@@ -946,7 +958,8 @@
               <a
                 class="inline-flex trans-all text-grey-dark flex flex-row items-center"
                 href="http://mmi.univ-smb.fr/site/"
-                target="_blank">
+                target="_blank"
+                rel="noopener noreferrer">
                 <div class="w-15px mr-3 flex-no-shrink">
                   <img
                     class="w-full"
@@ -1009,7 +1022,8 @@
               <a
                 class="inline-flex trans-all text-grey-dark flex flex-row items-center"
                 href="http://marie-reynoard.elycee.rhonealpes.fr/"
-                target="_blank">
+                target="_blank"
+                rel="noopener noreferrer">
                 <p>
                   Lycée Marie Reynoard
                 </p>

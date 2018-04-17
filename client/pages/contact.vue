@@ -186,7 +186,8 @@
                     <a
                       class="ml-auto"
                       href="mailto:alain.perrier@outlook.fr"
-                      target="_blank">
+                      target="_blank"
+                      rel="noopener noreferrer">
                       alain.perrier@outlook.fr
                     </a>
                   </span>
@@ -213,7 +214,8 @@
           <a
             class="flex"
             href="https://twitter.com/perrieral"
-            target="_blank">
+            target="_blank"
+            rel="noopener noreferrer">
             <img
               src="~/assets/img/twitter.svg"
               class="w-30px h-30px"
@@ -224,7 +226,8 @@
           <a
             class="flex"
             href="https://www.linkedin.com/in/alainperrier"
-            target="_blank">
+            target="_blank"
+            rel="noopener noreferrer">
             <img
               src="~/assets/img/linkedin.svg"
               class="w-30px h-30px"

@@ -61,7 +61,7 @@ export default {
             {
               image: 'construction.svg',
               content:
-                'Ce site est en cours de construction... Suivez l\'avancement sur <a href="https://trello.com/b/WX9UYn9x/portfolio-nuxt" target="_blank" class="trans-all-fast">Trello</a>'
+                'Ce site est en cours de construction... Suivez l\'avancement sur <a href="https://trello.com/b/WX9UYn9x/portfolio-nuxt" target="_blank" rel="noopener noreferrer" class="trans-all-fast">Trello</a>'
             }
           ]
         },
@@ -94,17 +94,17 @@ export default {
             {
               image: 'vue.svg',
               content:
-                '<a href="https://vuejs.org/" target="_blank" class="technos trans-all-fast">VueJS</a> | Framework JavaScript'
+                '<a href="https://vuejs.org/" target="_blank" rel="noopener noreferrer" class="technos trans-all-fast">VueJS</a> | Framework JavaScript'
             },
             {
               image: 'nuxt.svg',
               content:
-                '<a href="https://fr.nuxtjs.org/" target="_blank" class="technos trans-all-fast">NuxtJs</a> | Framework Node.js pour le rendu côté serveur'
+                '<a href="https://fr.nuxtjs.org/" target="_blank" rel="noopener noreferrer" class="technos trans-all-fast">NuxtJs</a> | Framework Node.js pour le rendu côté serveur'
             },
             {
               image: 'laravel.svg',
               content:
-                '<a href="https://laravel.com/" target="_blank" class="technos trans-all-fast">Laravel</a> | Framework PHP'
+                '<a href="https://laravel.com/" target="_blank" rel="noopener noreferrer" class="technos trans-all-fast">Laravel</a> | Framework PHP'
             }
           ]
         }
