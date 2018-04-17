@@ -66,6 +66,9 @@ module.exports = {
     author: 'Alain Perrier',
     lang: 'fr',
     mobileAppIOSTitle: 'Alain Perrier | Chef de projet, Product Owner, Consultant',
+    ogUrl: 'https://alainperrier.me',
+    ogHost: 'https://alainperrier.me',
+    ogImage: 'https://alainperrier.me/icon.png',
     ogSiteName: 'Alain Perrier | Chef de projet, Product Owner, Consultant',
     ogTitle: 'Alain Perrier | Chef de projet, Product Owner, Consultant',
     ogDescription:

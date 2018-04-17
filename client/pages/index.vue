@@ -835,8 +835,8 @@
                 <div class="w-30px mr-3 flex-no-shrink">
                   <img
                     class="w-full"
-                    srcset= "~assets/img/lf.jpg 1x, ~assets/img/lf-2x.jpg 2x"
-                    src="~assets/img/lf.jpg"
+                    srcset= "~assets/img/lf.png 1x, ~assets/img/lf-2x.png 2x"
+                    src="~assets/img/lf.png"
                     alt="Logo Leadformance">
                 </div>
                 <p>
