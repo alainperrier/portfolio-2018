@@ -10,7 +10,6 @@
 	<p><strong>Nom complet</strong> : {{ $contact->name }}</p>
 	<p><strong>Email</strong> : {{ $contact->email }}</p>
 	<p><strong>Message</strong> : {{ $contact->message }}<p>
-	<br>
 	<p>A très vite,<p>
 	<p>Alain Perrier<p>
 </body>
