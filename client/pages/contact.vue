@@ -269,11 +269,13 @@ export default {
         },
         {
           hid: 'og:title',
+          property: 'og:title',
           name: 'og:title',
           content: 'Alain Perrier | Me contacter'
         },
         {
           hid: 'og:description',
+          property: 'og:description',
           name: 'og:description',
           content:
             "Vous recherchez un chef de projet, Product Owner, ou consultant ? Contactez-moi sans plus attendre, je serais ravi d'échanger avec vous."
