@@ -17,7 +17,7 @@
         </li>
         <li class="w-full absolute pin-b pin-r h-0">
           <div
-            :style="{ width: currentWidth + 'px', height: defaultHeight + 'px', marginLeft: 'calc(' + currentMargin + 'px + ' + currentExtraMargin + 'rem)'}"
+            :style="{ width: currentWidth == null ? 0 : currentWidth + 'px', height: defaultHeight + 'px', marginLeft: 'calc(' + currentMargin + 'px + ' + currentExtraMargin + 'rem)'}"
             class="mt-1 w-0 h-0 bg-blue-light border-none trans-all"/>
         </li>
       </ul>
@@ -52,7 +52,7 @@ export default {
       return orderedItems
     }
   },
-  created: function() {
+  mounted: function() {
     this.prepareCurrentItem(this.items)
     if (process.browser) {
       let t = setInterval(() => {
