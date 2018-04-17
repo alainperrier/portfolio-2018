@@ -281,6 +281,18 @@ export default {
             "Vous recherchez un chef de projet, Product Owner, ou consultant ? Contactez-moi sans plus attendre, je serais ravi d'échanger avec vous."
         },
         {
+          hid: 'og:url',
+          property: 'og:url',
+          name: 'og:url',
+          content: 'https://alainperrier.me/contact'
+        },
+        {
+          hid: 'og:image',
+          property: 'og:image',
+          name: 'og:image',
+          content: 'https://alainperrier.me/icon.png'
+        },
+        {
           hid: 'apple-mobile-web-app-title',
           name: 'apple-mobile-web-app-title',
           content: 'Alain Perrier | Me contacter'

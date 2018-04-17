@@ -1106,6 +1106,23 @@ export default {
             "Alain Perrier, chef de projet, Product Owner et consultant sur Grenoble (Isère). Fort de mes 3 ans d'expérience et de ma double casquette technique et business, je suis prêt à relever de nouveaux défis."
         },
         {
+          hid: 'og:url',
+          property: 'og:url',
+          name: 'og:url',
+          content: 'https://alainperrier.me'
+        },
+        {
+          hid: 'og:image',
+          property: 'og:image',
+          name: 'og:image',
+          content: 'https://alainperrier.me/icon.png'
+        },
+        {
+          hid: 'apple-mobile-web-app-title',
+          name: 'apple-mobile-web-app-title',
+          content: 'Alain Perrier | Chef de projet, Product Owner, Consultant'
+        },
+        {
           hid: 'apple-mobile-web-app-title',
           name: 'apple-mobile-web-app-title',
           content: 'Alain Perrier | Chef de projet, Product Owner, Consultant'
