@@ -273,196 +273,141 @@
                   text-sm smp:text-sm sml:text-sm md:text-sm lg:text-base xl:text-base xxl:text-base">
                   <svg
                     id="Calque_1"
-                    version="1.1"
                     xmlns="http://www.w3.org/2000/svg"
-                    xmlns:xlink="http://www.w3.org/1999/xlink"
-                    x="0px"
-                    y="0px"
                     viewBox="0 0 136.8 136.8"
-                    style="enable-background:new 0 0 136.8 136.8;"
-                    xml:space="preserve"
                     class="w-150px smp:w-150px sml:w-200px md:w-200px lg:w-250px xl:w-350px xxl:w-400px">
-                    <style type="text/css">
-                      .st0{fill:url(#SVGID_1_);}
-                      .st1{fill:#FFFFFF;}
-                      .st2{fill:#404951;}
-                      .st3{opacity:0.2;}
-                      .st4{fill:none;stroke:#FFFFFF;stroke-width:0.25;stroke-miterlimit:10;}
-                      .st5{fill:#F3F7F9;}
+                    <style>
+                      .st1 {
+                      fill: #fff
+                      }
+
+                      .st4 {
+                      fill: none;
+                      stroke: #fff;
+                      stroke-width: .25;
+                      stroke-miterlimit: 10
+                      }
                     </style>
-                    <g>
-                      <g>
-                        <linearGradient
-                          id="SVGID_1_"
-                          gradientUnits="userSpaceOnUse"
-                          x1="3.1251"
-                          y1="66.952"
-                          x2="130.6935"
-                          y2="66.952">
-                          <stop
-                            offset="0"
-                            style="stop-color:#00AAD5"/>
-                          <stop
-                            offset="4.107649e-02"
-                            style="stop-color:#00A5BF"/>
-                          <stop
-                            offset="9.881720e-02"
-                            style="stop-color:#0CA0A5"/>
-                          <stop
-                            offset="0.1587"
-                            style="stop-color:#169C91"/>
-                          <stop
-                            offset="0.2207"
-                            style="stop-color:#1A9983"/>
-                          <stop
-                            offset="0.2863"
-                            style="stop-color:#1D977B"/>
-                          <stop
-                            offset="0.3614"
-                            style="stop-color:#1D9678"/>
-                          <stop
-                            offset="1"
-                            style="stop-color:#00AAD5"/>
-                        </linearGradient>
-                        <polygon
-                          class="st0"
-                          points="40.5,130.7 3.2,93.4 3.1,40.6 40.5,3.2 93.3,3.2 130.7,40.5 130.7,93.3 93.3,130.7    "/>
-                        <path
-                          class="st1"
-                          d="M93.3,3.3l37.3,37.3v52.7l-37.3,37.3H40.5L3.3,93.3V40.6L40.5,3.3H93.3 M93.4,3h-0.1H40.5h-0.1l-0.1,0.1
-                        L3.1,40.4L3,40.5v0.1v52.7v0.1l0.1,0.1l37.3,37.3l0.1,0.1h0.1h52.7h0.1l0.1-0.1l37.3-37.3l0.1-0.1v-0.1V40.6v-0.1l-0.1-0.1L93.4,3
-                        L93.4,3L93.4,3z"/>
-                      </g>
-                    </g>
-                    <g>
-                      <g>
-                        <polygon
-                          class="st2"
-                          points="10,89.6 6.7,41.9 43.5,9.2 87.4,17.5 108.3,50.4 107.4,83.5 87.4,116.4 43.3,123.4    "/>
-                        <path
-                          class="st1"
-                          d="M43.6,9.3l43.7,8.3l20.8,32.8l-0.8,33.1l-20,32.9l-44,6.9L10.2,89.6L6.9,41.9L43.6,9.3 M43.5,9L6.6,41.8
-                        l3.3,47.8l33.3,33.8l44.2-6.9l20.1-33l0.8-33.2l-20.9-33L43.5,9L43.5,9z"/>
-                      </g>
-                      <g>
-                        <circle
-                          :r="currentSize(0)"
-                          class="st1 trans-all z-9999 cursor-pointer"
-                          cx="43.7"
-                          cy="9.1"
-                          @mouseover="setSkill(0)"
-                          @mouseleave="setSkill(null)"/>
-                      </g>
-                      <g>
-                        <circle
-                          :r="currentSize(1)"
-                          class="st1 trans-all z-9999 cursor-pointer"
-                          cx="6.9"
-                          cy="41.6"
-                          @mouseover="setSkill(1)"
-                          @mouseleave="setSkill(null)"/>
-                      </g>
-                      <g>
-                        <circle
-                          :r="currentSize(2)"
-                          class="st1 trans-all z-9999 cursor-pointer"
-                          cx="9.9"
-                          cy="89.6"
-                          @mouseover="setSkill(2)"
-                          @mouseleave="setSkill(null)"/>
-                      </g>
-                      <g>
-                        <circle
-                          :r="currentSize(3)"
-                          class="st1 trans-all z-9999 cursor-pointer"
-                          cx="43.4"
-                          cy="123.4"
-                          @mouseover="setSkill(3)"
-                          @mouseleave="setSkill(null)"/>
-                      </g>
-                      <g>
-                        <circle
-                          :r="currentSize(4)"
-                          class="st1 trans-all z-9999 cursor-pointer"
-                          cx="87.5"
-                          cy="116.3"
-                          @mouseover="setSkill(4)"
-                          @mouseleave="setSkill(null)"/>
-                      </g>
-                      <g>
-                        <circle
-                          :r="currentSize(5)"
-                          class="st1 trans-all z-9999 cursor-pointer"
-                          cx="107.5"
-                          cy="83.5"
-                          @mouseover="setSkill(5)"
-                          @mouseleave="setSkill(null)"/>
-                      </g>
-                      <g>
-                        <circle
-                          :r="currentSize(6)"
-                          class="st1 trans-all z-9999 cursor-pointer"
-                          cx="108.3"
-                          cy="49.5"
-                          @mouseover="setSkill(6)"
-                          @mouseleave="setSkill(null)"/>
-                      </g>
-                      <g>
-                        <circle
-                          :r="currentSize(7)"
-                          class="st1 trans-all z-9999 cursor-pointer"
-                          cx="87.5"
-                          cy="17.1"
-                          @mouseover="setSkill(7)"
-                          @mouseleave="setSkill(null)"/>
-                      </g>
-                    </g>
-                    <g class="st3">
-                      <polygon
+                    <linearGradient
+                      id="SVGID_1_"
+                      gradientUnits="userSpaceOnUse"
+                      x1="3.125"
+                      y1="66.952"
+                      x2="130.694"
+                      y2="66.952">
+                      <stop
+                        offset="0"
+                        stop-color="#00aad5" />
+                      <stop
+                        offset=".041"
+                        stop-color="#00a5bf" />
+                      <stop
+                        offset=".099"
+                        stop-color="#0ca0a5" />
+                      <stop
+                        offset=".159"
+                        stop-color="#169c91" />
+                      <stop
+                        offset=".221"
+                        stop-color="#1a9983" />
+                      <stop
+                        offset=".286"
+                        stop-color="#1d977b" />
+                      <stop
+                        offset=".361"
+                        stop-color="#1d9678" />
+                      <stop
+                        offset="1"
+                        stop-color="#00aad5" />
+                    </linearGradient>
+                    <path
+                      fill="url(#SVGID_1_)"
+                      d="M40.5 130.7L3.2 93.4l-.1-52.8L40.5 3.2h52.8l37.4 37.3v52.8l-37.4 37.4z" />
+                    <path
+                      class="st1"
+                      d="M93.3 3.3l37.3 37.3v52.7l-37.3 37.3H40.5L3.3 93.3V40.6L40.5 3.3h52.8m.1-.3h-53l-.1.1L3.1 40.4l-.1.1v52.9l.1.1 37.3 37.3.1.1h52.9l.1-.1 37.3-37.3.1-.1V40.5l-.1-.1L93.4 3z" />
+                    <path
+                      fill="#404951"
+                      d="M10 89.6L6.7 41.9 43.5 9.2l43.9 8.3 20.9 32.9-.9 33.1-20 32.9-44.1 7z" />
+                    <path
+                      class="st1"
+                      d="M43.6 9.3l43.7 8.3 20.8 32.8-.8 33.1-20 32.9-44 6.9-33.1-33.7-3.3-47.7L43.6 9.3m-.1-.3L6.6 41.8l3.3 47.8 33.3 33.8 44.2-6.9 20.1-33 .8-33.2-20.9-33L43.5 9z" />
+                    <circle
+                      :r="currentSize(0)"
+                      class="st1 trans-all z-9999 cursor-pointer"
+                      cx="43.7"
+                      cy="9.1"
+                      @mouseover="setSkill(0)"
+                      @mouseleave="setSkill(null)"/>
+                    <circle
+                      :r="currentSize(1)"
+                      class="st1 trans-all z-9999 cursor-pointer"
+                      cx="6.9"
+                      cy="41.6"
+                      @mouseover="setSkill(1)"
+                      @mouseleave="setSkill(null)"/>
+                    <circle
+                      :r="currentSize(2)"
+                      class="st1 trans-all z-9999 cursor-pointer"
+                      cx="9.9"
+                      cy="89.6"
+                      @mouseover="setSkill(2)"
+                      @mouseleave="setSkill(null)"/>
+                    <circle
+                      :r="currentSize(3)"
+                      class="st1 trans-all z-9999 cursor-pointer"
+                      cx="43.4"
+                      cy="123.4"
+                      @mouseover="setSkill(3)"
+                      @mouseleave="setSkill(null)"/>
+                    <circle
+                      :r="currentSize(4)"
+                      class="st1 trans-all z-9999 cursor-pointer"
+                      cx="87.5"
+                      cy="116.3"
+                      @mouseover="setSkill(4)"
+                      @mouseleave="setSkill(null)"/>
+                    <circle
+                      :r="currentSize(5)"
+                      class="st1 trans-all z-9999 cursor-pointer"
+                      cx="107.5"
+                      cy="83.5"
+                      @mouseover="setSkill(5)"
+                      @mouseleave="setSkill(null)"/>
+                    <circle
+                      :r="currentSize(6)"
+                      class="st1 trans-all z-9999 cursor-pointer"
+                      cx="108.3"
+                      cy="49.5"
+                      @mouseover="setSkill(6)"
+                      @mouseleave="setSkill(null)"/>
+                    <circle
+                      :r="currentSize(7)"
+                      class="st1 trans-all z-9999 cursor-pointer"
+                      cx="87.5"
+                      cy="17.1"
+                      @mouseover="setSkill(7)"
+                      @mouseleave="setSkill(null)"/>
+                    <g opacity=".2">
+                      <path
                         class="st4"
-                        points="87.5,17.3 46.4,17.3 17.3,46.4 17.3,87.5 46.4,116.6 87.5,116.6 116.5,87.5 116.5,46.4  "/>
-                      <polygon
+                        d="M87.5 17.3H46.4L17.3 46.4v41.1l29.1 29.1h41.1l29-29.1V46.4z" />
+                      <path
                         class="st4"
-                        points="81.8,31.4 52.5,31.4 31.7,52.2 31.7,81.5 52.5,102.3 81.8,102.3 102.6,81.5 102.6,52.2  "/>
-                      <polygon
+                        d="M81.8 31.4H52.5L31.7 52.2v29.3l20.8 20.8h29.3l20.8-20.8V52.2z" />
+                      <path
                         class="st4"
-                        points="76,45.6 58.3,45.6 45.9,58 45.9,75.7 58.3,88.1 76,88.1 88.4,75.7 88.4,58  "/>
-                      <line
-                        class="st4"
-                        x1="93.3"
-                        y1="3.2"
-                        x2="40.5"
-                        y2="130.5"/>
-                      <line
-                        class="st4"
-                        x1="93.3"
-                        y1="130.5"
-                        x2="40.5"
-                        y2="3.2"/>
-                      <line
-                        class="st4"
-                        x1="3.2"
-                        y1="93.2"
-                        x2="130.7"
-                        y2="40.5"/>
-                      <line
-                        class="st4"
-                        x1="3.2"
-                        y1="40.5"
-                        x2="130.7"
-                        y2="93.2"/>
+                        d="M76 45.6H58.3L45.9 58v17.7l12.4 12.4H76l12.4-12.4V58zM93.3 3.2L40.5 130.5m52.8 0L40.5 3.2m-37.3 90l127.5-52.7m-127.5 0l127.5 52.7" />
                       <circle
-                        class="st5"
                         cx="66.9"
                         cy="66.7"
-                        r="1.1"/>
-                      <polygon
+                        r="1.1"
+                        fill="#f3f7f9" />
+                      <path
                         class="st4"
-                        points="70.1,59.8 64.2,59.8 60.1,63.9 60.1,69.8 64.2,73.9 70.1,73.9 74.2,69.8 74.2,63.9  "/>
+                        d="M70.1 59.8h-5.9l-4.1 4.1v5.9l4.1 4.1h5.9l4.1-4.1v-5.9z" />
                     </g>
                   </svg>
-                  <!-- ADD RESPONSIVE WIDTH (UP)-->
-                  <!-- ADD RESPONSIVE MAXWIDTH (DOWN - ALL)-->
                   <span
                     id="skill-0"
                     class="absolute label pin-management text-right

@@ -1,7 +1,7 @@
 <template>
   <transition name="fade">
     <div
-      class="dropdown fixed pin-t-59 pin-l-15 shadow-md 4 min-w-220px max-w-220px max-h-1/9 text-grey-darker z-50 origin-top-center">
+      class="dropdown fixed pin-t-59 pin-l-15 shadow-md 4 min-w-220px max-w-220px max-h-1/9 text-grey-darker z-9999 origin-top-center">
       <div
         :style="{ left: currentItemArrowPosition + 'px' }"
         class="arrow-up relative trans-left"/>
