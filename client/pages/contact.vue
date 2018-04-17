@@ -144,11 +144,13 @@
                         <img
                           v-if="!form.busy"
                           src="~/assets/img/send-button.svg"
-                          class="h-12px w-12px mr-3">
+                          class="h-12px w-12px mr-3"
+                          alt="Visuel envoyer">
                         <img
                           v-if="form.busy"
                           src="~/assets/img/oval.svg"
-                          class="h-12px w-12px mr-3">
+                          class="h-12px w-12px mr-3"
+                          alt="Visuel chargement">
                         <span>Envoyer</span>
                       </button>
                     </div>
@@ -214,7 +216,8 @@
             target="_blank">
             <img
               src="~/assets/img/twitter.svg"
-              class="w-30px h-30px">
+              class="w-30px h-30px"
+              alt="Logo Twitter">
           </a>
         </div>
         <div>
@@ -224,7 +227,8 @@
             target="_blank">
             <img
               src="~/assets/img/linkedin.svg"
-              class="w-30px h-30px">
+              class="w-30px h-30px"
+              alt="Logo LinkedIn">
           </a>
         </div>
       </div>

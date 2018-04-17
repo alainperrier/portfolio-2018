@@ -148,7 +148,8 @@
                 target="_blank">
                 <img
                   src="~/assets/img/twitter.svg"
-                  class="w-30px h-30px">
+                  class="w-30px h-30px"
+                  alt="Logo Twitter">
               </a>
             </div>
             <div>
@@ -158,7 +159,8 @@
                 target="_blank">
                 <img
                   src="~/assets/img/linkedin.svg"
-                  class="w-30px h-30px">
+                  class="w-30px h-30px"
+                  alt="Logo LinkedIn">
               </a>
             </div>
           </div>
@@ -233,7 +235,8 @@
                   <span class="mr-8 smp:mr-5">
                     <img
                       class="w-30px smp:w-30px sml:w-35px md:w-40px lg:w-45px xl:w-45px xxl:w-45px"
-                      src="~assets/img/cap.svg">
+                      src="~assets/img/cap.svg"
+                      alt="Double casquette">
                   </span>
                   <div class="max-w-100px smp:max-w-220px sml:max-w-100px md:max-w-none lg:max-w-none xl:max-w-none xxl:max-w-none">
                     <p class="font-semibold">Double casquette</p>
@@ -556,7 +559,8 @@
             @click="setBadge('lastudio', 0)">
             <img
               class="w-20px"
-              src="~assets/img/tie.svg">
+              src="~assets/img/tie.svg"
+              alt="Expérience professionnelle">
           </div>
           <div class="timeline-panel">
             <div class="timeline-heading">
@@ -635,7 +639,8 @@
             @click="setBadge('bp', 1)">
             <img
               class="w-20px"
-              src="~assets/img/tie.svg">
+              src="~assets/img/tie.svg"
+              alt="Expérience professionnelle">
           </div>
           <div class="timeline-panel">
             <div class="timeline-heading">
@@ -699,7 +704,8 @@
             @click="setBadge('dbs', 2)">
             <img
               class="w-20px"
-              src="~assets/img/cap-black.svg">
+              src="~assets/img/cap-black.svg"
+              alt="Expérience scolaire">
           </div>
           <div class="timeline-panel">
             <div class="timeline-heading">
@@ -786,7 +792,8 @@
             @click="setBadge('bsb', 3)">
             <img
               class="w-20px"
-              src="~assets/img/cap-black.svg">
+              src="~assets/img/cap-black.svg"
+              alt="Expérience scolaire">
           </div>
           <div class="timeline-panel">
             <div class="timeline-heading">
@@ -850,7 +857,8 @@
             @click="setBadge('lf', 4)">
             <img
               class="w-20px"
-              src="~assets/img/tie.svg">
+              src="~assets/img/tie.svg"
+              alt="Expérience professionnelle">
           </div>
           <div class="timeline-panel">
             <div class="timeline-heading">
@@ -913,7 +921,8 @@
             @click="setBadge('cm', 5)">
             <img
               class="w-20px"
-              src="~assets/img/tie.svg">
+              src="~assets/img/tie.svg"
+              alt="Expérience professionnelle">
           </div>
           <div class="timeline-panel">
             <div class="timeline-heading">
@@ -974,7 +983,8 @@
             @click="setBadge('dut', 6)">
             <img
               class="w-20px"
-              src="~assets/img/cap-black.svg">
+              src="~assets/img/cap-black.svg"
+              alt="Expérience scolaire">
           </div>
           <div class="timeline-panel">
             <div class="timeline-heading">
@@ -1036,7 +1046,8 @@
             @click="setBadge('bac', 7)">
             <img
               class="w-20px"
-              src="~assets/img/cap-black.svg">
+              src="~assets/img/cap-black.svg"
+              alt="Expérience scolaire">
           </div>
           <div class="timeline-panel">
             <div class="timeline-heading">
