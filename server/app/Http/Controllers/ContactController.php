@@ -25,7 +25,7 @@ class ContactController extends Controller
     	$contact->save();
 
         Mail::to('a.perrier721@gmail.com')->queue(new SendToMe($contact));
-        Mail::to('a.perrier721@gmail.com')->queue(new SendToClient($contact));
+        Mail::to($contact->email)->queue(new SendToClient($contact));
 
     	return response()->json([
     		'contact' => $contact
