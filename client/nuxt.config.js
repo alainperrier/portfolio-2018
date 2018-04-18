@@ -107,7 +107,7 @@ module.exports = {
           [
             'vue-app',
             {
-              useBuiltIns: true,
+              useBuiltIns: false,
               targets: isServer ? { node: 'current' } : {ie: 11, uglify: true}
             }
           ]
