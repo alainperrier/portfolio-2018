@@ -89,7 +89,7 @@ export default {
           name: 'technos',
           arrowPosition: null,
           totalSpace: null,
-          title: 'Technos utilisées ici',
+          title: 'Technologies utilisées',
           content: [
             {
               image: 'vue.svg',

@@ -49,12 +49,12 @@
       id="3"
       class="icons mr-4 cursor-pointer p-2 origin-center items-center flex-no-shrink
       hidden smp:flex sml:flex md:flex lg:flex xl:flex xxl:flex"
-      title="Technos"
+      title="Technologies"
       @click="open(3)">
       <img
         class="w-15px h-15px flex trans-all-fast"
         src="~assets/img/wrench.svg"
-        alt="Technos">
+        alt="Technologies">
     </li>
   </ul>
 </template>
