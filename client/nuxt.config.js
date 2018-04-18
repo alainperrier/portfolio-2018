@@ -193,5 +193,11 @@ module.exports = {
         })
       }
     }
+  },
+  /*
+    ** Render config
+  */
+  render: {
+    csp: true
   }
 }
