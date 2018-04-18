@@ -101,6 +101,19 @@ module.exports = {
     ** Build configuration
   */
   build: {
+    babel: {
+      presets({isServer}) {
+        return [
+          [
+            'vue-app',
+            {
+              useBuiltIns: true,
+              targets: isServer ? { node: 'current' } : {ie: 11, uglify: true}
+            }
+          ]
+        ];
+      }
+    },
     /*
       ** Extract text plugins (merge css from every vue pages / components with allChunks:true)
     */
@@ -119,7 +132,7 @@ module.exports = {
     /*
       ** Add vendor (to better cache resources)
     */
-    //vendor: ['vue-ripple'],
+    vendor: ['core-js/fn/object/assign', 'core-js/fn/promise', 'core-js/es6/symbol'],
     /*
       ** PostCss Plugins
     */

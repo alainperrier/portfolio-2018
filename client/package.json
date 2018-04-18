@@ -33,6 +33,7 @@
     "babel-polyfill": "^6.26.0",
     "browserslist": "^3.0.0",
     "caniuse-api": "^2.0.0",
+    "core-js": "^2.5.5",
     "css-reset-and-normalize": "^0.3.0",
     "eslint": "^4.18.1",
     "eslint-config-prettier": "^2.9.0",
