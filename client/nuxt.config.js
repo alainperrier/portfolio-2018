@@ -132,7 +132,8 @@ module.exports = {
     /*
       ** Add vendor (to better cache resources)
     */
-    vendor: ['core-js/fn/object', 'core-js/fn/promise', 'core-js/es6/symbol'],
+    // vendor: ['core-js/fn/object', 'core-js/fn/promise', 'core-js/es6/symbol'],
+    vendor: ['babel-polyfill'],
     /*
       ** PostCss Plugins
     */
