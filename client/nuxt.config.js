@@ -132,7 +132,7 @@ module.exports = {
     /*
       ** Add vendor (to better cache resources)
     */
-    vendor: ['core-js/es6/object', 'core-js/es6/promise', 'core-js/es7/promise', 'core-js/es6/symbol', 'core-js/web'],
+    vendor: ['core-js/es6/object', 'core-js/es6/promise', 'core-js/es7', 'core-js/es6/symbol', 'core-js/web'],
     // vendor: ['core-js/core', 'core-js/es6', 'core-js/es7', 'core-js/web'],
     /*
       ** PostCss Plugins
