@@ -49,9 +49,8 @@ module.exports = {
     { src: '~/plugins/vue-ripple', ssr: false },
     { src: '~/plugins/vue-scrollto', ssr: false },
     { src: '~/plugins/vue-click-outside', ssr: false },
-    { src: '~/plugins/vue-touch', ssr: false }, //not used
-    { src: '~/plugins/vue-expand', ssr: false }, //not used
-    { src: '~/plugins/ga', ssr: false }, //not used
+    { src: '~/plugins/vue-expand', ssr: false },
+    { src: '~/plugins/ga', ssr: false },
     { src: '~/plugins/v-validate' }
   ],
   /*
@@ -97,7 +96,7 @@ module.exports = {
   /*
     ** Add others modules
   */
-  modules: ['@nuxtjs/pwa', 'nuxt-device-detect'],
+  modules: ['@nuxtjs/pwa'],
   /*
     ** Build configuration
   */
