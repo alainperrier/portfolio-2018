@@ -197,7 +197,7 @@ module.exports = {
   /*
     ** Render config
   */
-  render: {
-    csp: true
-  }
+  // render: {
+  //   csp: true
+  // }
 }

@@ -1,7 +1,7 @@
 {
-  "name": "client",
+  "name": "portfolio",
   "version": "1.0.0",
-  "description": "Nuxt.js project",
+  "description": "Portfolio project with Nuxt.js, Vue and Laravel",
   "author": "oXg3n <a.perrier721@gmail.com>",
   "private": true,
   "scripts": {
