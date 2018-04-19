@@ -195,10 +195,10 @@
           :current-margin-top="currentMarginTop"
           class="text-grey-darker bg-grey-lightest heightfix-graph">
           <div
-            class="flex h-full overflow-hidden relative w-full flex-no-shrink mt-auto mb-auto
+            class="flex h-full overflow-hidden relative w-full flex-no-shrink
             flex-col smp:flex-col sml:flex-col md:flex-row lg:flex-row xl:flex-row xxl:flex-row">
             <div
-              class="flex flex-no-shrink overflow-hidden relative bg-blue-dark text-white justify-center flex-col
+              class="flex flex-no-shrink overflow-hidden relative bg-blue-dark text-white justify-center flex-col mt-auto mb-auto
               items-center smp:items-start sml:items-start md:items-start lg:items-start xl:items-start xxl:items-center
               h-auto smp:h-auto sml:h-auto md:h-full lg:h-full xl:h-full xxl:h-full
               w-full smp:w-full sml:w-full md:w-2/5 lg:w-2/5 xl:w-2/5 xxl:w-2/5
