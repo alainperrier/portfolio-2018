@@ -195,12 +195,12 @@
           :current-margin-top="currentMarginTop"
           class="text-grey-darker bg-grey-lightest heightfix-graph">
           <div
-            class="flex h-full overflow-hidden relative w-full
+            class="flex h-full overflow-hidden relative w-full flex-no-shrink mt-auto mb-auto
             flex-col smp:flex-col sml:flex-col md:flex-row lg:flex-row xl:flex-row xxl:flex-row">
             <div
-              class="flex overflow-hidden relative bg-blue-dark text-white justify-center flex-col
+              class="flex flex-no-shrink overflow-hidden relative bg-blue-dark text-white justify-center flex-col
               items-center smp:items-start sml:items-start md:items-start lg:items-start xl:items-start xxl:items-center
-              h-full smp:h-2/5 sml:h-1/3 md:h-full lg:h-full xl:h-full xxl:h-full
+              h-auto smp:h-auto sml:h-auto md:h-full lg:h-full xl:h-full xxl:h-full
               w-full smp:w-full sml:w-full md:w-2/5 lg:w-2/5 xl:w-2/5 xxl:w-2/5
               p-6 smp:p-6 sml:p-6 md:p-8 lg:p-10 xl:p-12 xxl:p-12">
               <div>
@@ -216,13 +216,13 @@
                 w-full
                 items-center smp:items-center sml:items-center md:items-start lg:items-start xl:items-start xxl:items-center
                 pb-2 smp:pb-0 sml:pb-0 md:pb-0 lg:pb-0 xl:pb-0 xxl:pb-0
-                mt-10 smp:mt-8 sml:mt-8 md:mt-12 lg:mt-12 xl:mt-12 xxl:mt-12
+                mt-6 smp:mt-8 sml:mt-8 md:mt-12 lg:mt-12 xl:mt-12 xxl:mt-12
                 text-sm smp:text-sm sml:text-sm md:text-md lg:text-lg xl:text-xl xxl:text-2xl
                 ml-0 smp:ml-0 sml:ml-0 md:ml-8 lg:ml-10 xl:ml-12 xxl:ml-12">
                 <!-- ADD RESPONSIVE MARGIN (UP)-->
                 <li
                   class="flex items-center
-                  mb-11 smp:mb-0 sml:mb-0 md:mb-11 lg:mb-11 xl:mb-11 xxl:mb-11
+                  mb-6 smp:mb-0 sml:mb-0 md:mb-11 lg:mb-11 xl:mb-11 xxl:mb-11
                   smp:mr-8 sml:mr-11">
                   <span class="mr-8 smp:mr-5">
                     <img
@@ -237,7 +237,7 @@
                 </li>
                 <li
                   class="flex items-center
-                  mb-11 smp:mb-0 sml:mb-0 md:mb-11 lg:mb-11 xl:mb-11 xxl:mb-11
+                  mb-6 smp:mb-0 sml:mb-0 md:mb-11 lg:mb-11 xl:mb-11 xxl:mb-11
                   smp:mr-8 sml:mr-11 md:ml-4 lg:ml-4 xl:ml-4 xxl:ml-4">
                   <span class="mr-8 smp:mr-5">
                     <img
@@ -270,14 +270,14 @@
               appear>
               <div
                 v-show="isCurrentItem == true"
-                class="flex flex-col overflow-hidden relative bg-grey-lightest items-center justify-center verysmallfix graph
-                h-full smp:h-3/5 sml:h-auto md:h-auto lg:h-auto xl:h-auto xxl:h-auto
+                class="flex flex-col overflow-hidden relative bg-grey-lightest items-center justify-center verysmallfix graph flex-no-shrink mt-auto mb-auto
+                h-auto smp:h-auto sml:h-auto md:h-auto lg:h-auto xl:h-auto xxl:h-auto
                 w-full smp:w-full sml:w-full md:w-3/5 lg:w-3/5 xl:w-3/5 xxl:w-3/5
                 p-6">
                 <div
-                  class="relative font-semibold text-grey-dark
+                  class="relative font-semibold text-grey-dark flex
                   text-sm smp:text-sm sml:text-sm md:text-sm lg:text-base xl:text-base xxl:text-base
-                  m-13">
+                  m-10 smp:m-10 sml:m-10 md:m-13 lg:m-13 xl:m-13 xxl:m-13">
                   <svg
                     id="Calque_1"
                     xmlns="http://www.w3.org/2000/svg"
@@ -482,7 +482,9 @@
                     Développement web
                   </span>
                 </div>
-                <div class="w-full h-30px text-center">
+                <div
+                  class="w-full h-30px items-end justify-center flex text-center
+                  mb-2 smp:mb-2 sml:mb-2 md:mb-0 lg:mb-0 xl:mb-0 xxl:mb-0">
                   <transition
                     name="hide"
                     mode="out-in">
