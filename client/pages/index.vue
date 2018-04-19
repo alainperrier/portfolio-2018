@@ -273,10 +273,11 @@
                 class="flex flex-col overflow-hidden relative bg-grey-lightest items-center justify-center verysmallfix graph
                 h-full smp:h-3/5 sml:h-auto md:h-auto lg:h-auto xl:h-auto xxl:h-auto
                 w-full smp:w-full sml:w-full md:w-3/5 lg:w-3/5 xl:w-3/5 xxl:w-3/5
-                p-13 smp:p-13 sml:p-13 md:p-13 lg:p-13 xl:p-13 xxl:p-13">
+                p-6">
                 <div
                   class="relative font-semibold text-grey-dark
-                  text-sm smp:text-sm sml:text-sm md:text-sm lg:text-base xl:text-base xxl:text-base">
+                  text-sm smp:text-sm sml:text-sm md:text-sm lg:text-base xl:text-base xxl:text-base
+                  m-13">
                   <svg
                     id="Calque_1"
                     xmlns="http://www.w3.org/2000/svg"
@@ -481,15 +482,17 @@
                     Développement web
                   </span>
                 </div>
-                <transition
-                  name="hide"
-                  mode="out-in">
-                  <span
-                    v-if="skillItem != null"
-                    class="skill-details text-xs smp:text-xs sml:text-xs md:text-xs lg:text-sm xl:text-sm xxl:text-sm absolute text-blue-dark pin-details">
-                    {{ skillDetail[skillItem] }}
-                  </span>
-                </transition>
+                <div class="w-full h-30px text-center">
+                  <transition
+                    name="hide"
+                    mode="out-in">
+                    <span
+                      v-if="skillItem != null"
+                      class="skill-details text-xs smp:text-xs sml:text-xs md:text-xs lg:text-sm xl:text-sm xxl:text-sm text-blue-dark">
+                      {{ skillDetail[skillItem] }}
+                    </span>
+                  </transition>
+                </div>
               </div>
             </transition>
           </div>
