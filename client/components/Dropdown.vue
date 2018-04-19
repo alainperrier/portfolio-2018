@@ -58,9 +58,8 @@ export default {
     this.$store.commit('setPrevContextNavEl', this.$store.state.contextNavEl)
     if (process.browser) {
       for (var i = 0; i < this.items.length; i++) {
-        let width = parseFloat(window.getComputedStyle(document.getElementById(i)).width)
+        let width = parseFloat(document.getElementById(i).offsetWidth)
         let marginRight = parseFloat(window.getComputedStyle(document.getElementById(i)).marginRight)
-
         if (i == 0) {
           this.items[i].arrowPosition = width / 2 - this.arrowBorderSize
           this.items[i].totalSpace = width + marginRight
