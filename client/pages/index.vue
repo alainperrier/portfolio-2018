@@ -226,7 +226,8 @@
                   smp:mr-8 sml:mr-11">
                   <span class="mr-8 smp:mr-5">
                     <img
-                      class="w-20px smp:w-20px sml:w-25px md:w-30px lg:w-35px xl:w-35px xxl:w-35px"
+                      class="w-20px smp:w-20px sml:w-25px md:w-30px lg:w-35px xl:w-35px xxl:w-35px
+                      h-20px smp:h-20px sml:h-25px md:h-30px lg:h-35px xl:h-35px xxl:h-35px"
                       src="~assets/img/flask.svg"
                       alt="Expérience">
                   </span>
@@ -240,7 +241,8 @@
                   smp:mr-8 sml:mr-11 md:ml-4 lg:ml-4 xl:ml-4 xxl:ml-4">
                   <span class="mr-8 smp:mr-5">
                     <img
-                      class="w-30px smp:w-30px sml:w-35px md:w-40px lg:w-45px xl:w-45px xxl:w-45px"
+                      class="w-30px smp:w-30px sml:w-35px md:w-40px lg:w-45px xl:w-45px xxl:w-45px
+                      h-30px smp:h-30px sml:h-35px md:h-40px lg:h-45px xl:h-45px xxl:h-45px"
                       src="~assets/img/cap.svg"
                       alt="Double casquette">
                   </span>
@@ -252,7 +254,8 @@
                 <li class="flex items-center">
                   <span class="mr-8 sml:mr-5 smp:mr-5">
                     <img
-                      class="w-25px smp:w-25px sml:w-30px md:w-35px lg:w-40px xl:w-40px xxl:w-40px"
+                      class="w-25px smp:w-25px sml:w-30px md:w-35px lg:w-40px xl:w-40px xxl:w-40px
+                      h-25px smp:h-25px sml:h-30px md:h-35px lg:h-40px xl:h-40px xxl:h-40px"
                       src="~assets/img/heart.svg"
                       alt="Passion">
                   </span>
@@ -278,7 +281,8 @@
                     id="Calque_1"
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 136.8 136.8"
-                    class="w-150px smp:w-150px sml:w-200px md:w-200px lg:w-250px xl:w-350px xxl:w-400px">
+                    class="w-150px smp:w-150px sml:w-200px md:w-200px lg:w-250px xl:w-350px xxl:w-400px
+                    h-150px smp:h-150px sml:h-200px md:h-200px lg:h-250px xl:h-350px xxl:h-400px">
                     <style>
                       .st1 {
                       fill: #fff
@@ -510,17 +514,17 @@
             class="timeline-badge trans-all cursor-pointer"
             @click="setBadge('lastudio', 0)">
             <img
-              class="w-20px"
+              class="w-20px h-20px"
               src="~assets/img/tie.svg"
               alt="Expérience professionnelle">
           </div>
           <div class="timeline-panel">
             <div class="timeline-heading">
-              <p class="flex text-xs mb-4">
-                <span class="text-blue-dark">Nov. 2015 - Aujourd'hui</span>
-                <span class="text-grey-middle ml-auto">Professionnel</span>
-              </p>
-              <h4 class="timeline-title font-semibold mb-2">Chef de projet web | Partenaire associé</h4>
+              <div class="flex text-sm mb-4">
+                <p class="text-blue-dark">Nov. 2015 - Aujourd'hui</p>
+                <p class="text-grey-middle ml-auto">Professionnel</p>
+              </div>
+              <h4 class="timeline-title text-mid font-semibold mb-3">Chef de projet web | Partenaire associé</h4>
               <a
                 class="trans-all inline-flex text-grey-dark flex flex-row items-center"
                 href="https://la-studio.fr"
@@ -541,8 +545,11 @@
             <div
               v-expand="badgeClicked == 'lastudio'"
               class="expand timeline-body text-xs bg-white origin-top-center leading-tight mb-6">
-              <p class="mt-4"><span class="font-lato-medium">Contexte : </span>LA-Studio est une agence de stratégie digitale qui accompagne les entreprises de la région grenobloise. Je participe à son développement en tant que partenaire associé.</p>
-              <p class="mt-3"><span class="font-lato-medium">Missions :</span></p>
+              <div class="mt-6">
+                <p class="font-lato-medium text-sm mb-1">Contexte</p>
+                <p>LA-Studio est une agence de stratégie digitale qui accompagne les entreprises de la région grenobloise. Je participe à son développement en tant que partenaire associé.</p>
+              </div>
+              <div class="mt-4"><p class="font-lato-medium text-sm">Missions</p></div>
               <ul class="mt-1">
                 <li>Conception et développement d'une
                   <span>
@@ -592,17 +599,17 @@
             class="timeline-badge trans-all cursor-pointer"
             @click="setBadge('bp', 1)">
             <img
-              class="w-20px"
+              class="w-20px h-20px"
               src="~assets/img/tie.svg"
               alt="Expérience professionnelle">
           </div>
           <div class="timeline-panel">
             <div class="timeline-heading">
-              <p class="flex text-xs mb-2">
+              <p class="flex text-sm mb-4">
                 <span class="text-blue-dark">Mai 2015 - Déc. 2017</span>
                 <span class="text-grey-middle ml-auto">Professionnel</span>
               </p>
-              <h4 class="timeline-title font-semibold mb-2">Chef de projet digital</h4>
+              <h4 class="timeline-title text-mid font-semibold mb-3">Chef de projet digital</h4>
               <a
                 class="inline-flex trans-all text-grey-dark flex flex-row items-center"
                 href="https://www.bpaura.banquepopulaire.fr/portailinternet/Pages/default.aspx"
@@ -623,8 +630,11 @@
             <div
               v-expand="badgeClicked == 'bp'"
               class="expand timeline-body text-xs bg-white origin-top-center leading-tight mb-6">
-              <p class="mt-4"><span class="font-lato-medium">Contexte : </span>Au siège de la Banque Populaire des Alpes à Corenc, j'ai piloté plusieurs projets visant à accélérer la transformation digitale en lien avec le Groupe BPCE et la filiale informatique Banque Populaire. J'ai également contribué à la Fusion Informatique et Organisationnelle pour donner naissance à la Banque Populaire Auvergne Rhône Alpes.</p>
-              <p class="mt-3"><span class="font-lato-medium">Missions :</span></p>
+              <div class="mt-6">
+                <p class="font-lato-medium text-sm mb-1">Contexte</p>
+                <p>Au siège de la Banque Populaire des Alpes à Corenc, j'ai piloté plusieurs projets visant à accélérer la transformation digitale en lien avec le Groupe BPCE et la filiale informatique Banque Populaire. J'ai également contribué à la Fusion Informatique et Organisationnelle pour donner naissance à la Banque Populaire Auvergne Rhône Alpes.</p>
+              </div>
+              <p class="mt-4"><span class="font-lato-medium text-sm">Missions</span></p>
               <ul class="mt-1">
                 <li>Déploiement et pilotage de projets digitaux à enjeux stratégiques (signature éléctronique, application commerciale sur tablette...)</li>
                 <li class="mt-1">Responsable projet Auvergne Rhône Alpes et membre du COPIL Digital</li>
@@ -658,17 +668,17 @@
             class="timeline-badge trans-all cursor-pointer"
             @click="setBadge('dbs', 2)">
             <img
-              class="w-20px"
+              class="w-20px h-20px"
               src="~assets/img/cap-black.svg"
               alt="Expérience scolaire">
           </div>
           <div class="timeline-panel">
             <div class="timeline-heading">
-              <p class="flex text-xs mb-2">
+              <p class="flex text-sm mb-4">
                 <span class="text-blue-dark">Sept. 2016 - Déc. 2017</span>
                 <span class="text-grey-middle ml-auto">Scolaire</span>
               </p>
-              <h4 class="timeline-title font-semibold mb-2">Advanced Master | Digital Business Strategy</h4>
+              <h4 class="timeline-title text-mid font-semibold mb-3">Advanced Master | Digital Business Strategy</h4>
               <a
                 class="inline-flex trans-all text-grey-dark flex flex-row items-center"
                 href="https://www.grenoble-em.com/mastere-specialise-strategie-digitale"
@@ -689,8 +699,11 @@
             <div
               v-expand="badgeClicked == 'dbs'"
               class="expand timeline-body text-xs bg-white origin-top-center leading-tight mb-6">
-              <p class="mt-4"><span class="font-lato-medium">Contexte : </span>Le Mastère spécialisé Stratégie Digitale est dispensé en anglais sur le campus de GEM à Paris. Il forme les étudiants aux pratiques du marketing digital (e-commerce, social media, SEO/SEA...), de l'expérience utilisateur, de la transformation digitale et de la gestion de projet agile dans un contexte international.</p>
-              <p class="mt-3"><span class="font-lato-medium">Evènements marquants :</span></p>
+              <div class="mt-6">
+                <p class="font-lato-medium text-sm mb-1">Contexte</p>
+                <p>Le Mastère spécialisé Stratégie Digitale est dispensé en anglais sur le campus de GEM à Paris. Il forme les étudiants aux pratiques du marketing digital (e-commerce, social media, SEO/SEA...), de l'expérience utilisateur, de la transformation digitale et de la gestion de projet agile dans un contexte international.</p>
+              </div>
+              <p class="mt-4"><span class="font-lato-medium text-sm">Evènements marquants</span></p>
               <ul class="mt-1">
                 <li>Thèse Professionnelle : How can we encourage employees to adopt digital technology? Case study of La Banque Populaire des Alpes</li>
                 <li class="mt-1">Rédaction d'articles de blog pour
@@ -750,17 +763,17 @@
             class="timeline-badge trans-all cursor-pointer"
             @click="setBadge('bsb', 3)">
             <img
-              class="w-20px"
+              class="w-20px h-20px"
               src="~assets/img/cap-black.svg"
               alt="Expérience scolaire">
           </div>
           <div class="timeline-panel">
             <div class="timeline-heading">
-              <p class="flex text-xs mb-2">
+              <p class="flex text-sm mb-4">
                 <span class="text-blue-dark">Sept. 2013 - Juin 2016</span>
                 <span class="text-grey-middle ml-auto">Scolaire</span>
               </p>
-              <h4 class="timeline-title font-semibold mb-2">Master en Management | Programme Grande Ecole</h4>
+              <h4 class="timeline-title text-mid font-semibold mb-3">Master en Management | Programme Grande Ecole</h4>
               <a
                 class="inline-flex trans-all text-grey-dark flex flex-row items-center"
                 href="https://www.bsb-education.com/"
@@ -781,8 +794,11 @@
             <div
               v-expand="badgeClicked == 'bsb'"
               class="expand timeline-body text-xs bg-white origin-top-center leading-tight mb-6">
-              <p class="mt-4"><span class="font-lato-medium">Contexte : </span>Anciennement l'ESC Dijon, Burgundy School of Business forme les étudiants au monde de l'entreprise (stratégie, finance, économie, comptabilité, droit, marketing, communication, relations commercialles...).</p>
-              <p class="mt-3"><span class="font-lato-medium">Evènements marquants :</span></p>
+              <div class="mt-6">
+                <p class="font-lato-medium text-sm mb-1">Contexte</p>
+                <p>Anciennement l'ESC Dijon, Burgundy School of Business forme les étudiants au monde de l'entreprise (stratégie, finance, économie, comptabilité, droit, marketing, communication, relations commercialles...).</p>
+              </div>
+              <p class="mt-4"><span class="font-lato-medium text-sm">Evènements marquants</span></p>
               <ul class="mt-1">
                 <li>Semestre an Angleterre à l'université d'Hertfordshire</li>
                 <li class="mt-1">Major de Promotion en première année</li>
@@ -816,17 +832,17 @@
             class="timeline-badge trans-all cursor-pointer"
             @click="setBadge('lf', 4)">
             <img
-              class="w-20px"
+              class="w-20px  h-20px"
               src="~assets/img/tie.svg"
               alt="Expérience professionnelle">
           </div>
           <div class="timeline-panel">
             <div class="timeline-heading">
-              <p class="flex text-xs mb-2">
+              <p class="flex text-sm mb-4">
                 <span class="text-blue-dark">Mai 2014 - Août 2014</span>
                 <span class="text-grey-middle ml-auto">Professionnel</span>
               </p>
-              <h4 class="timeline-title font-semibold mb-2">Assistant chef de projet</h4>
+              <h4 class="timeline-title font-semibold text-mid mb-3">Assistant chef de projet</h4>
               <a
                 class="inline-flex trans-all text-grey-dark flex flex-row items-center"
                 href="https://leadformance.com"
@@ -847,8 +863,11 @@
             <div
               v-expand="badgeClicked == 'lf'"
               class="expand timeline-body text-xs bg-white origin-top-center leading-tight mb-6">
-              <p class="mt-4"><span class="font-lato-medium">Contexte : </span>Leadformance propose une solution web-to-store visant à améliorer la visibilité des points de vente sur le web. Leadformance est située au Bourget-du-Lac, appartient au Groupe Solocal et travaille avec des entreprises grands comptes comme SFR, Crédit Agricole, Darty...</p>
-              <p class="mt-3"><span class="font-lato-medium">Missions :</span></p>
+              <div class="mt-6">
+                <p class="font-lato-medium text-sm mb-1">Contexte</p>
+                <p>Leadformance propose une solution web-to-store visant à améliorer la visibilité des points de vente sur le web. Leadformance est située au Bourget-du-Lac, appartient au Groupe Solocal et travaille avec des entreprises grands comptes comme SFR, Crédit Agricole, Darty...</p>
+              </div>
+              <p class="mt-4"><span class="font-lato-medium text-sm">Missions</span></p>
               <ul class="mt-1">
                 <li>Gestion de projet dans un contexte agile (SCRUM) : daily meeting, sprint review, sprint goals, tests, documentation...</li>
                 <li class="mt-1">Déploiement de projets BRIDGE (plateforme SAAS web-to-store)</li>
@@ -881,23 +900,23 @@
             class="timeline-badge trans-all cursor-pointer"
             @click="setBadge('cm', 5)">
             <img
-              class="w-20px"
+              class="w-20px h-20px"
               src="~assets/img/tie.svg"
               alt="Expérience professionnelle">
           </div>
           <div class="timeline-panel">
             <div class="timeline-heading">
-              <p class="flex text-xs mb-2">
+              <p class="flex text-sm mb-4">
                 <span class="text-blue-dark">Avril 2013 - Juin 2013</span>
                 <span class="text-grey-middle ml-auto">Professionnel</span>
               </p>
-              <h4 class="timeline-title font-semibold mb-2">Chargé de communication interne</h4>
+              <h4 class="timeline-title text-mid font-semibold mb-3">Chargé de communication interne</h4>
               <a
                 class="inline-flex trans-all text-grey-dark flex flex-row items-center"
                 href="https://creditmutuel.fr"
                 target="_blank"
                 rel="noopener noreferrer">
-                <div class="w-20px mr-3 flex-no-shrink">
+                <div class="w-20px h-16-66px mr-3 flex-no-shrink">
                   <img
                     src="~assets/img/CM.svg"
                     class="w-full"
@@ -911,8 +930,11 @@
             <div
               v-expand="badgeClicked == 'cm'"
               class="expand timeline-body text-xs bg-white origin-top-center leading-tight mb-6">
-              <p class="mt-4"><span class="font-lato-medium">Contexte : </span>Au siège du Crédit Mutuel à Strasbourg, j'intègre l'équipe de la communication interne du Groupe</p>
-              <p class="mt-3"><span class="font-lato-medium">Missions :</span></p>
+              <div class="mt-6">
+                <p class="font-lato-medium text-sm mb-1">Contexte</p>
+                <p>Au siège du Crédit Mutuel à Strasbourg, j'intègre l'équipe de la communication interne du Groupe</p>
+              </div>
+              <div class="mt-4"><span class="font-lato-medium text-sm">Missions</span></div>
               <ul class="mt-1">
                 <li>Création de supports de communication (newsletter, infographie, journal interne...)</li>
                 <li class="mt-1">Administration du site intranet</li>
@@ -945,17 +967,17 @@
             class="timeline-badge trans-all cursor-pointer"
             @click="setBadge('dut', 6)">
             <img
-              class="w-20px"
+              class="w-20px h-20px"
               src="~assets/img/cap-black.svg"
               alt="Expérience scolaire">
           </div>
           <div class="timeline-panel">
             <div class="timeline-heading">
-              <p class="flex text-xs mb-2">
+              <p class="flex text-sm mb-4">
                 <span class="text-blue-dark">Sept. 2011 - Juin 2013</span>
                 <span class="text-grey-middle ml-auto">Scolaire</span>
               </p>
-              <h4 class="timeline-title font-semibold mb-2">DUT | Métiers du Multimédia et de l'Internet</h4>
+              <h4 class="timeline-title font-semibold text-mid mb-3">DUT | Métiers du Multimédia et de l'Internet</h4>
               <a
                 class="inline-flex trans-all text-grey-dark flex flex-row items-center"
                 href="http://mmi.univ-smb.fr/site/"
@@ -976,8 +998,11 @@
             <div
               v-expand="badgeClicked == 'dut'"
               class="expand timeline-body text-xs bg-white origin-top-center leading-tight mb-6">
-              <p class="mt-4"><span class="font-lato-medium">Contexte : </span>Le DUT Métiers du Multimédia et de l'Internet au Bourget-du-Lac forme les étudiants aux pratiques de la communication, du développement web, du montage vidéo, de la conception graphique et de la gestion de projet.</p>
-              <p class="mt-3"><span class="font-lato-medium">Evènements marquants :</span></p>
+              <div class="mt-6">
+                <p class="font-lato-medium text-sm mb-1">Contexte</p>
+                <p>Le DUT Métiers du Multimédia et de l'Internet au Bourget-du-Lac forme les étudiants aux pratiques de la communication, du développement web, du montage vidéo, de la conception graphique et de la gestion de projet.</p>
+              </div>
+              <p class="mt-4"><span class="font-lato-medium text-sm">Evènements marquants</span></p>
               <ul class="mt-1">
                 <li>Major de promotion</li>
                 <li class="mt-1">Spécialisation Communication</li>
@@ -1009,17 +1034,17 @@
             class="timeline-badge trans-all cursor-pointer"
             @click="setBadge('bac', 7)">
             <img
-              class="w-20px"
+              class="w-20px h-20px"
               src="~assets/img/cap-black.svg"
               alt="Expérience scolaire">
           </div>
           <div class="timeline-panel">
             <div class="timeline-heading">
-              <p class="flex text-xs mb-2">
+              <p class="flex text-sm mb-4">
                 <span class="text-blue-dark">Sept. 2008 - Juin 2011</span>
                 <span class="text-grey-middle ml-auto">Scolaire</span>
               </p>
-              <h4 class="timeline-title font-semibold mb-2">BAC | Sciences et Technologies du Management et de la Gestion</h4>
+              <h4 class="timeline-title font-semibold text-mid mb-3">BAC | Sciences et Technologies du Management et de la Gestion</h4>
               <a
                 class="inline-flex trans-all text-grey-dark flex flex-row items-center"
                 href="http://marie-reynoard.elycee.rhonealpes.fr/"
@@ -1033,8 +1058,11 @@
             <div
               v-expand="badgeClicked == 'bac'"
               class="expand timeline-body text-xs bg-white origin-top-center leading-tight mb-6">
-              <p class="mt-4"><span class="font-lato-medium">Contexte : </span>Le Lycée Marie Reynoard se situe à Villard-Bonnot</p>
-              <p class="mt-3"><span class="font-lato-medium">Evènements marquants :</span></p>
+              <div class="mt-6">
+                <p class="font-lato-medium text-sm mb-1">Contexte</p>
+                <p>Le Lycée Marie Reynoard se situe à Villard-Bonnot</p>
+              </div>
+              <p class="mt-4"><span class="font-lato-medium text-sm">Evènements marquants</span></p>
               <ul class="mt-1">
                 <li>Mention très bien au BAC</li>
                 <li class="mt-1">Spécialisation Communication et Gestion des Ressources Humaines</li>
@@ -1042,8 +1070,7 @@
             </div>
             <div
               class="expandable flex justify-end">
-              <span
-                class="inline-flex"
+              <div
                 @click="setBadge('bac', 7)">
                 <button
                   v-ripple
@@ -1055,7 +1082,7 @@
                   @mouseleave="reduceBadge('bac')">
                   <span>{{ labelDetail[7] }}</span>
                 </button>
-              </span>
+              </div>
             </div>
           </div>
         </li>

@@ -169,7 +169,7 @@
                 class="flex w-full items-center justify-center origin-top-center"
                 @click="opened()">
                 <span
-                  class="cursor-pointer hover:font-semibold">
+                  class="cursor-pointer hover:font-lato-medium">
                   Voir mes coordonnées
                 </span>
               </div>

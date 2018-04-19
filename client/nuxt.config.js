@@ -102,16 +102,16 @@ module.exports = {
   */
   build: {
     babel: {
-      presets({isServer}) {
+      presets({ isServer }) {
         return [
           [
             'vue-app',
             {
               useBuiltIns: true,
-              targets: isServer ? { node: 'current' } : {ie: 11, uglify: true}
+              targets: isServer ? { node: 'current' } : { ie: 11, uglify: true }
             }
           ]
-        ];
+        ]
       }
     },
     /*
@@ -206,7 +206,7 @@ module.exports = {
         })
       }
     }
-  },
+  }
   /*
     ** Render config
   */

@@ -16,7 +16,7 @@
         <img
           v-if="item.image != null"
           :src="require('~/assets/img/' + item.image)"
-          class="h-30px mr-4">
+          class="w-30px h-30px mr-4">
         <span v-html="item.content"/>
       </div>
     </div>

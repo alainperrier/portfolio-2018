@@ -177,12 +177,13 @@ module.exports = {
   */
 
   textSizes: {
-    xxxs: '.15rem',
-    xxs: '.5rem',
-    xs: '.7rem', // 12px
+    xxxs: '.2rem',
+    xxs: '.6rem',
+    xs: '.75rem', // 12px
     sm: '.80rem', // 14px
     md: '.90rem', // 15px
     base: '1rem', // 16px
+    mid: '1.08rem', // 18px
     lg: '1.125rem', // 18px
     xl: '1.25rem', // 20px
     '2xl': '1.4rem', // 24px
@@ -464,11 +465,15 @@ module.exports = {
     '10px': '10px',
     '12px': '12px',
     '15px': '15px',
+    '16-6px': '16.66px',
     '17-5px': '17.5px',
     '18px': '18px',
     '20px': '20px',
+    '25px': '25px',
     '30px': '30px',
+    '35px': '35px',
     '40px': '40px',
+    '45px': '45px',
     '50px': '50px',
     '60px': '60px',
     '100px': '100px',
