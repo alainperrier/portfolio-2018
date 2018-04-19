@@ -270,7 +270,7 @@
               appear>
               <div
                 v-show="isCurrentItem == true"
-                class="flex flex-col overflow-hidden relative bg-grey-lightest items-center justify-center verysmallfix graph flex-no-shrink mt-auto mb-auto
+                class="flex flex-col relative bg-grey-lightest items-center justify-center verysmallfix graph flex-no-shrink mauto-0
                 h-auto smp:h-auto sml:h-auto md:h-auto lg:h-auto xl:h-auto xxl:h-auto
                 w-full smp:w-full sml:w-full md:w-3/5 lg:w-3/5 xl:w-3/5 xxl:w-3/5
                 p-6">
