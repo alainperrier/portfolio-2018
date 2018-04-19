@@ -17,7 +17,9 @@
           v-if="item.image != null"
           :src="require('~/assets/img/' + item.image)"
           class="w-30px h-30px mr-4">
-        <span v-html="item.content"/>
+        <span
+          v-html="item.content"
+          class="w-100-30"/>
       </div>
     </div>
   </transition>
