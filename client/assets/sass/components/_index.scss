@@ -178,8 +178,7 @@
 }
 
 
-/** SML 200px **/
-
+/** SML 250px **/
 @screen sml {
   .pin-management {
     left: -20px;
@@ -191,15 +190,15 @@
 @screen sml {
   .pin-gestion {
     left: -130px;
-    top: 55px;
+    top: 65px;
     transform: translate(0%, 0%);
   }
 }
 
 @screen sml {
   .pin-conduite {
-    left: -130px;
-    top: 145px;
+    left: -145px;
+    top: 175px;
     transform: translate(0%, 0%);
   }
 }
@@ -214,7 +213,7 @@
 
 @screen sml {
   .pin-strategie {
-    right: 60px;
+    right: 80px;
     bottom: -30px;
     transform: translate(100%, 0%);
   }
@@ -223,7 +222,7 @@
 @screen sml {
   .pin-data {
     right: -30px;
-    top: 145px;
+    top: 175px;
     transform: translate(100%, 0%);
   }
 }
@@ -231,14 +230,14 @@
 @screen sml {
   .pin-ux {
     right: -30px;
-    top: 55px;
+    top: 65px;
     transform: translate(100%, 0%);
   }
 }
 
 @screen sml {
   .pin-dev {
-    right: 60px;
+    right: 80px;
     top: -50px;
     transform: translate(100%, 100%);
   }

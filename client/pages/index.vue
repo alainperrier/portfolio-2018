@@ -282,7 +282,7 @@
                     id="Calque_1"
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 136.8 136.8"
-                    class="w-150px smp:w-150px sml:w-200px md:w-200px lg:w-250px xl:w-350px xxl:w-400px
+                    class="w-150px smp:w-150px sml:w-250px md:w-200px lg:w-250px xl:w-350px xxl:w-400px
                     h-150px smp:h-150px sml:h-200px md:h-200px lg:h-250px xl:h-350px xxl:h-400px">
                     <style>
                       .st1 {
@@ -484,7 +484,8 @@
                 </div>
                 <div
                   class="w-full h-30px items-end justify-center flex text-center
-                  mb-2 smp:mb-2 sml:mb-2 md:mb-0 lg:mb-0 xl:mb-0 xxl:mb-0">
+                  mb-2 smp:mb-2 sml:mb-2 md:mb-0 lg:mb-0 xl:mb-0 xxl:mb-0
+                  sml:mt-4">
                   <transition
                     name="hide"
                     mode="out-in">
