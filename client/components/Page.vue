@@ -113,11 +113,11 @@ export default {
   },
   methods: {
     exceptParent: function(event) {
-      if (!this.isParent()) {
+      if (!this.isParent(event)) {
         this.close()
       }
     },
-    isParent: function() {
+    isParent: function(event) {
       return (
         event.target.classList.contains('avatar') ||
         event.target.parentElement.classList.contains('avatar') ||
