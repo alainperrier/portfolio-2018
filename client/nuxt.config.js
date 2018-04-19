@@ -57,9 +57,10 @@ module.exports = {
     ** Customise manifest file
   */
   manifest: {
+    name: 'AlainPerrier',
+    shortName: 'AlainPerrier',
     theme_color: '#404951',
-    name: 'Alain Perrier | Chef de projet, Product Owner, Consultant',
-    shortName: 'Alain Perrier | Chef de projet, Product Owner, Consultant',
+    display: "standalone"
     description:
       "Alain Perrier, chef de projet, Product Owner et consultant sur Grenoble (Isère). Fort de mes 3 ans d'expérience et de ma double casquette technique et business, je suis prêt à relever de nouveaux défis.",
     author: 'Alain Perrier',
