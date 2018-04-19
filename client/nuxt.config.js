@@ -57,8 +57,8 @@ module.exports = {
     ** Customise manifest file
   */
   manifest: {
-    name: 'AlainPerrier',
-    shortName: 'AlainPerrier',
+    name: 'Alain Perrier',
+    short_name: 'Alain Perrier',
     theme_color: '#404951',
     display: 'fullscreen',
     description:
