@@ -113,7 +113,7 @@
                           rel="noopener noreferrer">
                           <btn
                             v-ripple
-                            class="trans-all bg-red-light flex flex-no-shrink items-center justify-center h-30px truncate">
+                            class="trans-all bg-red-light flex flex-no-shrink items-center justify-center h-30px truncate trans-all hover:bg-red-dark">
                             <img
                               slot="img"
                               src="~/assets/img/download.svg"
@@ -129,7 +129,7 @@
                           class="text-white">
                           <btn
                             v-ripple
-                            class="bg-blue-light flex flex-no-shrink items-center justify-center h-30px truncate">
+                            class="bg-blue-light flex flex-no-shrink items-center justify-center h-30px truncate trans-all hover:bg-blue-dark">
                             <span slot="text">Me contacter</span>
                           </btn>
                         </nuxt-link>
@@ -145,25 +145,25 @@
             justify-center smp:justify-center sml:justify-center md:justify-end lg:justify-end xl:justify-end xxl:justify-end">
             <div class="mr-6">
               <a
-                class="flex"
+                class="social flex"
                 href="https://twitter.com/perrieral"
                 target="_blank"
                 rel="noopener noreferrer">
                 <img
                   src="~/assets/img/twitter.svg"
-                  class="w-30px h-30px"
+                  class="w-30px h-30px trans-all-fast"
                   alt="Logo Twitter">
               </a>
             </div>
             <div>
               <a
-                class="flex"
+                class="social flex"
                 href="https://www.linkedin.com/in/alainperrier"
                 target="_blank"
                 rel="noopener noreferrer">
                 <img
                   src="~/assets/img/linkedin.svg"
-                  class="w-30px h-30px"
+                  class="w-30px h-30px trans-all-fast"
                   alt="Logo LinkedIn">
               </a>
             </div>
@@ -1081,7 +1081,7 @@
                 <button
                   v-ripple
                   class="pt-1/2 pb-1/2 rounded-sm
-                  trans-all w-50px bg-blue-light flex flex-no-shrink items-center justify-center truncate text-white ml-auto font-lato-medium shadow
+                  trans-all w-50px bg-blue-light hover:bg-blue-dark flex flex-no-shrink items-center justify-center truncate text-white ml-auto font-lato-medium shadow
                   p-2 text-xs"
                   type="button"
                   @mouseover="scaleBadge('bac')"

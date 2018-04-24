@@ -58,6 +58,7 @@ let colors = {
   white: '#ffffff',
 
   'red-light': '#ee3547',
+  'red-dark': '#db2030',
 
   'blue-light': '#00b8d1',
   'blue-dark': '#08a3bd'
