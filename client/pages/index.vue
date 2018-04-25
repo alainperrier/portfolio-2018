@@ -642,9 +642,9 @@
               </div>
               <p class="mt-4"><span class="font-lato-medium text-sm">Missions</span></p>
               <ul class="mt-1">
-                <li>Déploiement et pilotage de projets digitaux à enjeux stratégiques (signature éléctronique, application commerciale sur tablette...)</li>
+                <li>Déploiement et pilotage de projets digitaux à enjeux stratégiques (signature électronique, application commerciale sur tablette...)</li>
                 <li class="mt-1">Responsable projet Auvergne Rhône Alpes et membre du COPIL Digital</li>
-                <li class="mt-1">Coordination tranversale des acteurs (Banque, Groupe BPCE et filiales)</li>
+                <li class="mt-1">Coordination transversale des acteurs (Banque, Groupe BPCE et filiales)</li>
                 <li class="mt-1">Conduite du changement, formation et animation d'une communauté de référents digitaux</li>
                 <li class="mt-1">Contribution à la Fusion Informatique et Organisationnelle</li>
               </ul>
@@ -695,10 +695,10 @@
                     class="w-full"
                     srcset= "~assets/img/gem-logo.png 1x, ~assets/img/gem-logo-2x.png 2x"
                     src="~assets/img/gem-logo.png"
-                    alt="Logo Grenoble Ecole de Management">
+                    alt="Logo Grenoble École de Management">
                 </div>
                 <p>
-                  Grenoble Ecole de Management
+                  Grenoble École de Management
                 </p>
               </a>
             </div>
@@ -709,7 +709,7 @@
                 <p class="font-lato-medium text-sm mb-1">Contexte</p>
                 <p>Le Mastère spécialisé Stratégie Digitale est dispensé en anglais sur le campus de GEM à Paris. Il forme les étudiants aux pratiques du marketing digital (e-commerce, social media, SEO/SEA...), de l'expérience utilisateur, de la transformation digitale et de la gestion de projet agile dans un contexte international.</p>
               </div>
-              <p class="mt-4"><span class="font-lato-medium text-sm">Evènements marquants</span></p>
+              <p class="mt-4"><span class="font-lato-medium text-sm">Évènements marquants</span></p>
               <ul class="mt-1">
                 <li>Thèse Professionnelle : How can we encourage employees to adopt digital technology? Case study of La Banque Populaire des Alpes</li>
                 <li class="mt-1">Rédaction d'articles de blog pour
@@ -779,7 +779,7 @@
                 <span class="text-blue-dark">Sept. 2013 - Juin 2016</span>
                 <span class="text-grey-middle ml-auto">Scolaire</span>
               </p>
-              <h4 class="timeline-title text-mid font-semibold mb-3">Master en Management | Programme Grande Ecole</h4>
+              <h4 class="timeline-title text-mid font-semibold mb-3">Master en Management | Programme Grande École</h4>
               <a
                 class="inline-flex trans-all text-grey-dark flex flex-row items-center"
                 href="https://www.bsb-education.com/"
@@ -802,9 +802,9 @@
               class="expand timeline-body text-xs bg-white origin-top-center leading-tight mb-6">
               <div class="mt-6">
                 <p class="font-lato-medium text-sm mb-1">Contexte</p>
-                <p>Anciennement l'ESC Dijon, Burgundy School of Business forme les étudiants au monde de l'entreprise (stratégie, finance, économie, comptabilité, droit, marketing, communication, relations commercialles...).</p>
+                <p>Anciennement l'ESC Dijon, Burgundy School of Business forme les étudiants au monde de l'entreprise (stratégie, finance, économie, comptabilité, droit, marketing, communication, relations commerciales...).</p>
               </div>
-              <p class="mt-4"><span class="font-lato-medium text-sm">Evènements marquants</span></p>
+              <p class="mt-4"><span class="font-lato-medium text-sm">Évènements marquants</span></p>
               <ul class="mt-1">
                 <li>Semestre an Angleterre à l'université d'Hertfordshire</li>
                 <li class="mt-1">Major de Promotion en première année</li>
@@ -1008,7 +1008,7 @@
                 <p class="font-lato-medium text-sm mb-1">Contexte</p>
                 <p>Le DUT Métiers du Multimédia et de l'Internet au Bourget-du-Lac forme les étudiants aux pratiques de la communication, du développement web, du montage vidéo, de la conception graphique et de la gestion de projet.</p>
               </div>
-              <p class="mt-4"><span class="font-lato-medium text-sm">Evènements marquants</span></p>
+              <p class="mt-4"><span class="font-lato-medium text-sm">Évènements marquants</span></p>
               <ul class="mt-1">
                 <li>Major de promotion</li>
                 <li class="mt-1">Spécialisation Communication</li>
@@ -1068,7 +1068,7 @@
                 <p class="font-lato-medium text-sm mb-1">Contexte</p>
                 <p>Le Lycée Marie Reynoard se situe à Villard-Bonnot</p>
               </div>
-              <p class="mt-4"><span class="font-lato-medium text-sm">Evènements marquants</span></p>
+              <p class="mt-4"><span class="font-lato-medium text-sm">Évènements marquants</span></p>
               <ul class="mt-1">
                 <li>Mention très bien au BAC</li>
                 <li class="mt-1">Spécialisation Communication et Gestion des Ressources Humaines</li>
