@@ -94,12 +94,12 @@ export default {
             {
               image: 'vue.svg',
               content:
-                '<a href="https://vuejs.org/" target="_blank" rel="noopener noreferrer" class="technos trans-all-fast">VueJS</a> | Framework JavaScript'
+                '<a href="https://vuejs.org/" target="_blank" rel="noopener noreferrer" class="technos trans-all-fast">Vue</a> | Framework JavaScript'
             },
             {
               image: 'nuxt.svg',
               content:
-                '<a href="https://fr.nuxtjs.org/" target="_blank" rel="noopener noreferrer" class="technos trans-all-fast">NuxtJs</a> | Framework Node.js pour le rendu côté serveur'
+                '<a href="https://fr.nuxtjs.org/" target="_blank" rel="noopener noreferrer" class="technos trans-all-fast">Nuxt</a> | Framework pour créer des applications Vue rendues côté serveur'
             },
             {
               image: 'laravel.svg',
