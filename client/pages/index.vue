@@ -875,7 +875,7 @@
               </div>
               <p class="mt-4"><span class="font-lato-medium text-sm">Missions</span></p>
               <ul class="mt-1">
-                <li>Gestion de projet dans un contexte international et agile (méthode SCRUM) : daily meeting, sprint review, sprint goal, test, documentation...</li>
+                <li>Gestion de projet dans un contexte agile (méthode SCRUM) et international : daily meeting, sprint review, sprint goal, tests, documentation...</li>
                 <li class="mt-1">Déploiement de projets BRIDGE (plateforme SAAS web-to-store)</li>
                 <li class="mt-1">Relation clients (Numéricable...)</li>
                 <li class="mt-1">Conception et développement d'outils internes</li>
