@@ -18,7 +18,7 @@ This project allowed me to be more visible online, discover new web development 
 * TailwindCSS as a CSS framework
 
 ## Google Lighthouse report
-![alt Google Lighthouse report of the homepage](https://github.com/alainperrier/portfolio-2018/conf/preview-lightouse.png "Google Lighthouse report of the homepage")
+![alt Google Lighthouse report of the homepage](https://github.com/alainperrier/portfolio-2018/blob/master/conf/preview-lightouse.png "Google Lighthouse report of the homepage")
 
 ## Roadmap
 
