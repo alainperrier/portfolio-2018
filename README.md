@@ -1,6 +1,6 @@
 # Alain Perrier | Portfolio / Resume
 
-I made a personal wesbite to present myself as a Product Owner (resume, portfolio...). You can visit my website at [https://alainperrier.me](https://alainperrier.me)
+I made a personal wesbite to present myself as a Product Owner (resume, portfolio...). You can visit my website at [https://alainperrier.me](https://alainperrier.me).\
 This project allowed me to be more visible online, discover new web development techniques, and be ready for my next challenge!
 
 ## Built with
@@ -12,7 +12,7 @@ This project allowed me to be more visible online, discover new web development 
 
 ## Roadmap
 
-You can check the roadmap on [Trello](https://trello.com/b/zRKp0mXI/alainperrierme)
+You can check the roadmap on [Trello](https://trello.com/b/zRKp0mXI/alainperrierme).
 
 ## Furter information
 
