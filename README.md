@@ -17,6 +17,12 @@ This project allowed me to be more visible online, discover new web development 
 * Laravel as a PHP framework used as an API endpoint
 * TailwindCSS as a CSS framework
 
+## Browser / OS / Device support
+
+* IE 11, Edge, Chrome, Firefox, Safari, Opera
+* Windows, Mac, iOS, Android
+* Desktop, Tablet, Mobile
+
 ## Google Lighthouse report
 ![alt Google Lighthouse report of the homepage](https://github.com/alainperrier/portfolio-2018/blob/master/conf/preview-lightouse.png "Google Lighthouse report of the homepage")
 
