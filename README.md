@@ -18,4 +18,4 @@ You can check the roadmap on [Trello](https://trello.com/b/zRKp0mXI/alainperrier
 
 Don't hesitate to report any issue directly in this repo.
 You can check my [Twitter](https://twitter.com/perrieral) and [LinkedIn](https://www.linkedin.com/in/alainperrier) profiles.
-And feel free to visit my [website](https://alainperrier.me)
+And feel free to visit my [website](https://alainperrier.me).
