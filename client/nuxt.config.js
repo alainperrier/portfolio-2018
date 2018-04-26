@@ -13,7 +13,7 @@ module.exports = {
     ** Headers of the page
   */
   head: {
-    title: 'Alain Perrier | Chef de projet, Product Owner, Consultant',
+    title: 'Alain Perrier | Chef de projet, Product Owner, Consultant digital',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
@@ -21,7 +21,7 @@ module.exports = {
         hid: 'description',
         name: 'description',
         content:
-          "Alain Perrier, chef de projet, Product Owner et consultant sur Grenoble (Isère). Fort de mes 3 ans d'expérience et de ma double casquette technique et business, je suis prêt à relever de nouveaux défis."
+          "Alain Perrier, chef de projet, Product Owner et consultant digital sur Grenoble (Isère). Fort de mes 3 ans d'expérience et de ma double casquette technique et business, je suis prêt à relever de nouveaux défis."
       }
     ],
     link: [
@@ -62,17 +62,17 @@ module.exports = {
     theme_color: '#404951',
     display: 'fullscreen',
     description:
-      "Alain Perrier, chef de projet, Product Owner et consultant sur Grenoble (Isère). Fort de mes 3 ans d'expérience et de ma double casquette technique et business, je suis prêt à relever de nouveaux défis.",
+      "Alain Perrier, chef de projet, Product Owner et consultant digital sur Grenoble (Isère). Fort de mes 3 ans d'expérience et de ma double casquette technique et business, je suis prêt à relever de nouveaux défis.",
     author: 'Alain Perrier',
     lang: 'fr',
-    mobileAppIOSTitle: 'Alain Perrier | Chef de projet, Product Owner, Consultant',
+    mobileAppIOSTitle: 'Alain Perrier | Chef de projet, Product Owner, Consultant digital',
     ogUrl: 'https://alainperrier.me',
     ogHost: 'https://alainperrier.me',
     ogImage: 'https://alainperrier.me/icon.png',
-    ogSiteName: 'Alain Perrier | Chef de projet, Product Owner, Consultant',
-    ogTitle: 'Alain Perrier | Chef de projet, Product Owner, Consultant',
+    ogSiteName: 'Alain Perrier | Chef de projet, Product Owner, Consultant digital',
+    ogTitle: 'Alain Perrier | Chef de projet, Product Owner, Consultant digital',
     ogDescription:
-      "Alain Perrier, chef de projet, Product Owner et consultant sur Grenoble (Isère). Fort de mes 3 ans d'expérience et de ma double casquette technique et business, je suis prêt à relever de nouveaux défis."
+      "Alain Perrier, chef de projet, Product Owner et consultant digital sur Grenoble (Isère). Fort de mes 3 ans d'expérience et de ma double casquette technique et business, je suis prêt à relever de nouveaux défis."
   },
   /*
     **Workbox service worker

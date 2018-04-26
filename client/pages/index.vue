@@ -1132,26 +1132,26 @@ export default {
   },
   head: function() {
     return {
-      title: 'Alain Perrier | Chef de projet, Product Owner, Consultant',
+      title: 'Alain Perrier | Chef de projet, Product Owner, Consultant digital',
       meta: [
         {
           hid: 'description',
           name: 'description',
           content:
-            "Alain Perrier, chef de projet, Product Owner et consultant sur Grenoble (Isère). Fort de mes 3 ans d'expérience et de ma double casquette technique et business, je suis prêt à relever de nouveaux défis."
+            "Alain Perrier, chef de projet, Product Owner et consultant digital sur Grenoble (Isère). Fort de mes 3 ans d'expérience et de ma double casquette technique et business, je suis prêt à relever de nouveaux défis."
         },
         {
           hid: 'og:title',
           property: 'og:title',
           name: 'og:title',
-          content: 'Alain Perrier | Chef de projet, Product Owner, Consultant'
+          content: 'Alain Perrier | Chef de projet, Product Owner, Consultant digital'
         },
         {
           hid: 'og:description',
           property: 'og:description',
           name: 'og:description',
           content:
-            "Alain Perrier, chef de projet, Product Owner et consultant sur Grenoble (Isère). Fort de mes 3 ans d'expérience et de ma double casquette technique et business, je suis prêt à relever de nouveaux défis."
+            "Alain Perrier, chef de projet, Product Owner et consultant digital sur Grenoble (Isère). Fort de mes 3 ans d'expérience et de ma double casquette technique et business, je suis prêt à relever de nouveaux défis."
         },
         {
           hid: 'og:url',
@@ -1168,12 +1168,12 @@ export default {
         {
           hid: 'apple-mobile-web-app-title',
           name: 'apple-mobile-web-app-title',
-          content: 'Alain Perrier | Chef de projet, Product Owner, Consultant'
+          content: 'Alain Perrier | Chef de projet, Product Owner, Consultant digital'
         },
         {
           hid: 'apple-mobile-web-app-title',
           name: 'apple-mobile-web-app-title',
-          content: 'Alain Perrier | Chef de projet, Product Owner, Consultant'
+          content: 'Alain Perrier | Chef de projet, Product Owner, Consultant digital'
         }
       ]
     }

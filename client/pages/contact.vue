@@ -268,7 +268,7 @@ export default {
           hid: 'description',
           name: 'description',
           content:
-            "Vous recherchez un chef de projet, Product Owner, ou consultant ? Contactez-moi sans plus attendre, je serais ravi d'échanger avec vous."
+            "Vous recherchez un chef de projet, Product Owner, ou consultant digital ? Contactez-moi sans plus attendre, je serais ravi d'échanger avec vous."
         },
         {
           hid: 'og:title',
@@ -281,7 +281,7 @@ export default {
           property: 'og:description',
           name: 'og:description',
           content:
-            "Vous recherchez un chef de projet, Product Owner, ou consultant ? Contactez-moi sans plus attendre, je serais ravi d'échanger avec vous."
+            "Vous recherchez un chef de projet, Product Owner, ou consultant digital ? Contactez-moi sans plus attendre, je serais ravi d'échanger avec vous."
         },
         {
           hid: 'og:url',
