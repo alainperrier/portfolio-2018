@@ -61,7 +61,7 @@ export default {
             {
               image: 'construction.svg',
               content:
-                'Ce site est en construction... Vous pouvez suivre l\'avancement sur <a href="https://trello.com/b/zRKp0mXI/alain-perrier-portfolio" target="_blank" rel="noopener noreferrer" class="trans-all-fast">Trello</a>'
+                'Ce site est en construction... Vous pouvez suivre le projet sur <a href="https://github.com/alainperrier/portfolio-2018" target="_blank" rel="noopener noreferrer" class="trans-all-fast">GitHub</a> et <a href="https://trello.com/b/zRKp0mXI/alain-perrier-portfolio" target="_blank" rel="noopener noreferrer" class="trans-all-fast">Trello</a>'
             }
           ]
         },
