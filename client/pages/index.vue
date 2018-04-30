@@ -3,31 +3,29 @@
     :current-margin-top="currentMarginTop">
     <scroll-marker :current-margin-top="currentMarginTop"/>
     <!-- 1st part -->
-    <div class="content-container">
-      <div>
-        <sub-page
-          id="accueil"
-          :current-margin-top="currentMarginTop"
-          class="bg-grey-dark text-white heightfix-land">
-          <landing/>
-          <social/>
-          <scroll-to :current-margin-top="currentMarginTop"/>
-        </sub-page>
-      </div>
-      <!-- 2nd part -->
-      <div>
-        <sub-page
-          id="apropos"
-          :current-margin-top="currentMarginTop"
-          class="text-grey-darker bg-grey-lightest heightfix-graph">
-          <div
-            class="flex h-full overflow-hidden relative w-full flex-no-shrink
-            flex-col smp:flex-col sml:flex-col md:flex-row lg:flex-row xl:flex-row xxl:flex-row">
-            <about/>
-            <radar/>
-          </div>
-        </sub-page>
-      </div>
+    <div>
+      <sub-page
+        id="accueil"
+        :current-margin-top="currentMarginTop"
+        class="bg-grey-dark text-white heightfix-land">
+        <landing/>
+        <social/>
+        <scroll-to :current-margin-top="currentMarginTop"/>
+      </sub-page>
+    </div>
+    <!-- 2nd part -->
+    <div>
+      <sub-page
+        id="apropos"
+        :current-margin-top="currentMarginTop"
+        class="text-grey-darker bg-grey-lightest heightfix-graph">
+        <div
+          class="flex h-full overflow-hidden relative w-full flex-no-shrink
+          flex-col smp:flex-col sml:flex-col md:flex-row lg:flex-row xl:flex-row xxl:flex-row">
+          <about/>
+          <radar/>
+        </div>
+      </sub-page>
     </div>
     <!-- 3rd part -->
     <timeline/>
