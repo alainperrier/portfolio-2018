@@ -94,7 +94,7 @@ export default {
           hid: 'og:image',
           property: 'og:image',
           name: 'og:image',
-          content: 'https://alainperrier.me/icon.png'
+          content: 'https://alainperrier.me/ogimage.jpg'
         },
         {
           hid: 'apple-mobile-web-app-title',

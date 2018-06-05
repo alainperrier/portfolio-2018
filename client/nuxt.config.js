@@ -68,7 +68,7 @@ module.exports = {
     mobileAppIOSTitle: 'Alain Perrier | Chef de projet, Product Owner, Consultant digital',
     ogUrl: 'https://alainperrier.me',
     ogHost: 'https://alainperrier.me',
-    ogImage: 'https://alainperrier.me/icon.png',
+    ogImage: 'https://alainperrier.me/ogimage.jpg',
     ogSiteName: 'Alain Perrier | Chef de projet, Product Owner, Consultant digital',
     ogTitle: 'Alain Perrier | Chef de projet, Product Owner, Consultant digital',
     ogDescription:
