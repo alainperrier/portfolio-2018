@@ -21,7 +21,7 @@
         <div class="timeline-panel">
           <div class="timeline-heading">
             <div class="flex text-sm mb-4">
-              <p class="text-blue-dark">Nov. 2015 - Aujourd'hui</p>
+              <p class="text-blue-dark">Nov. 2015 - Juin 2018</p>
               <p class="text-grey-middle ml-auto">Professionnel</p>
             </div>
             <h4 class="timeline-title text-mid font-semibold mb-3">Chef de projet web | Partenaire associé</h4>
