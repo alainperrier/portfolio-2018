@@ -27,9 +27,7 @@
             <h4 class="timeline-title text-mid font-semibold mb-3">Chef de projet web | Partenaire associé</h4>
             <a
               class="trans-all inline-flex text-grey-dark flex flex-row items-center"
-              href="https://la-studio.fr"
-              target="_blank"
-              rel="noopener noreferrer">
+              href="#">
               <div class="w-20px mr-3 flex-no-shrink">
                 <img
                   class="w-full"
