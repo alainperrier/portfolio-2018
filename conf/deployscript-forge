@@ -1,0 +1,12 @@
+cd /home/forge/alainperrier.me
+git pull origin master
+composer install --no-interaction --prefer-dist --optimize-autoloader
+cd /home/forge/alainperrier.me/server
+composer install --no-interaction --prefer-dist --optimize-autoloader
+php artisan migrate --force
+php artisan queue:restart
+
+cd /home/forge/alainperrier.me/client
+npm install
+npm run build
+pm2 restart ap-portfolio
