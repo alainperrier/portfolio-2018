@@ -48,13 +48,5 @@
     "purgecss-whitelister": "^1.1.3",
     "sass-loader": "^6.0.6",
     "tailwindcss": "^0.4.2"
-  },
-  "browserslist": [
-    "> 0.5%",
-    "last 3 major versions",
-    "last 2 years",
-    "Firefox ESR",
-    "not ie <= 8",
-    "not dead"
-  ]
+  }
 }
