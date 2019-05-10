@@ -25,9 +25,8 @@
               <p class="text-grey-middle ml-auto">Professionnel</p>
             </div>
             <h4 class="timeline-title text-mid font-semibold mb-3">Chef de projet web | Partenaire associé</h4>
-            <a
-              class="trans-all inline-flex text-grey-dark flex flex-row items-center"
-              href="#">
+            <span
+              class="trans-all inline-flex text-grey-dark flex flex-row items-center">
               <div class="w-20px mr-3 flex-no-shrink">
                 <img
                   class="w-full"
@@ -38,7 +37,7 @@
               <p>
                 LA - Studio
               </p>
-            </a>
+            </span>
           </div>
           <div
             v-expand="badgeClicked == 'lastudio'"
