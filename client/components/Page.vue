@@ -81,7 +81,7 @@ export default {
             },
             {
               image: 'postit-green.svg',
-              content: 'Poursuivre ma carrière en tant que Chef de projet, Scrum Master et Product Owner'
+              content: 'Poursuivre ma carrière de Chef de projet, Scrum Master et Product Owner'
             }
           ]
         },

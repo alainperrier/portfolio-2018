@@ -8,11 +8,82 @@
       <h4 class="text-base smp:text-base sml:text-base md:text-lg lg:text-2xl xl:text-3xl xxl:text-3xl uppercase mt-2">Scolaire et professionnel</h4>
     </div>
     <ul class="timeline overflow-hidden">
+      <li class="timeline-inverted">
+        <div
+          id="gfi"
+          class="timeline-badge trans-all cursor-pointer"
+          @click="setBadge('gfi', 0)">
+          <img
+            class="w-20px h-20px"
+            src="~assets/img/tie.svg"
+            alt="Expérience professionnelle">
+        </div>
+        <div class="timeline-panel">
+          <div class="timeline-heading">
+            <p class="flex text-sm mb-4">
+              <span class="text-blue-dark">Sept. 2018 - Aujourd'hui</span>
+              <span class="text-grey-middle ml-auto">Professionnel</span>
+            </p>
+            <h4 class="timeline-title text-mid font-semibold mb-3">Chef de projet informatique</h4>
+            <a
+              class="inline-flex trans-all text-grey-dark flex flex-row items-center"
+              href="https://www.gfi.world/fr-fr/"
+              target="_blank"
+              rel="noopener noreferrer">
+              <div class="flex-no-shrink w-35px mr-3">
+                <img
+                  class="w-full"
+                  srcset= "~assets/img/logo-Gfi.png 1x, ~assets/img/logo-Gfi-2x.png 2x"
+                  src="~assets/img/logo-Gfi.png"
+                  alt="Logo Gfi Informatique">
+              </div>
+              <p>
+                GFI Informatique
+              </p>
+            </a>
+          </div>
+          <div
+            v-expand="badgeClicked == 'gfi'"
+            class="expand timeline-body text-xs bg-white origin-top-center leading-tight mb-6">
+            <div class="mt-6">
+              <p class="font-lato-medium text-sm mb-1">Contexte</p>
+              <p>GFI Informatique est une Entreprise de Services du Numérique. J'ai intégré l'agence de Gfi Meylan en tant que chef de projet pour travailler sur des projets à engagement de résultats (projets au forfait). Je travaille notamment pour un projet de développement et de maintenance d'une application pour le CNG. Cette application permet aux étudiants de médecine de passer les Epreuves Classantes Nationales informatisées sur tablette (ECNi) afin d'accéder au troisième cycle.</p>
+            </div>
+            <p class="mt-4"><span class="font-lato-medium text-sm">Missions</span></p>
+            <ul class="mt-1">
+              <li class="mt-1">Gestion et pilotage de projets à engagement de résultats (projets au forfait)</li>
+              <li class="mt-1">Encadrement d'une équipe de développeurs et de testeurs (jusqu'à 8 personnes)</li>
+              <li class="mt-1">Méthodologie du cycle en Y qui combine à la fois les principes du cycle en V (spécifications fonctionnelles, documentation technique...) et de SCRUM (daily meeting, sprint, rétrospective, démonstration...)</li>
+              <li class="mt-1">Planification, priorisation, gestion de la charge, gestion des risques, suivi opérationnel, clotûre de fin de mois...</li>
+              <li class="mt-1">Animation d'ateliers client, de réunions de suivi, de comités de pilotage, de comités inter prestataires...</li>
+              <li class="mt-1">Recette fonctionnelle, recette technique, rédaction et/ou validation de livrables...</li>
+              <li class="mt-1">Avant vente, étude, analyse, reporting...</li>
+            </ul>
+          </div>
+          <div
+            class="expandable flex justify-end">
+            <span
+              class="inline-flex"
+              @click="setBadge('gfi', 0)">
+              <button
+                v-ripple
+                class="pt-1/2 pb-1/2 rounded-sm
+                trans-all w-50px bg-blue-light flex flex-no-shrink items-center justify-center truncate text-white ml-auto font-lato-medium shadow
+                p-2 text-xs"
+                type="button"
+                @mouseover="scaleBadge('gfi')"
+                @mouseleave="reduceBadge('gfi')">
+                <span>{{ labelDetail[0] }}</span>
+              </button>
+            </span>
+          </div>
+        </div>
+      </li>
       <li>
         <div
           id="lastudio"
           class="timeline-badge trans-all cursor-pointer"
-          @click="setBadge('lastudio', 0)">
+          @click="setBadge('lastudio', 1)">
           <img
             class="w-20px h-20px"
             src="~assets/img/tie.svg"
@@ -75,7 +146,7 @@
             class="expandable flex justify-end">
             <span
               class="inline-flex"
-              @click="setBadge('lastudio', 0)">
+              @click="setBadge('lastudio', 1)">
               <button
                 v-ripple
                 class="pt-1/2 pb-1/2 rounded-sm
@@ -84,7 +155,7 @@
                 type="button"
                 @mouseover="scaleBadge('lastudio')"
                 @mouseleave="reduceBadge('lastudio')">
-                <span>{{ labelDetail[0] }}</span>
+                <span>{{ labelDetail[1] }}</span>
               </button>
             </span>
           </div>
@@ -94,7 +165,7 @@
         <div
           id="bp"
           class="timeline-badge trans-all cursor-pointer"
-          @click="setBadge('bp', 1)">
+          @click="setBadge('bp', 2)">
           <img
             class="w-20px h-20px"
             src="~assets/img/tie.svg"
@@ -144,7 +215,7 @@
             class="expandable flex justify-end">
             <span
               class="inline-flex"
-              @click="setBadge('bp', 1)">
+              @click="setBadge('bp', 2)">
               <button
                 v-ripple
                 class="pt-1/2 pb-1/2 rounded-sm
@@ -153,7 +224,7 @@
                 type="button"
                 @mouseover="scaleBadge('bp')"
                 @mouseleave="reduceBadge('bp')">
-                <span>{{ labelDetail[1] }}</span>
+                <span>{{ labelDetail[2] }}</span>
               </button>
             </span>
           </div>
@@ -163,7 +234,7 @@
         <div
           id="dbs"
           class="timeline-badge trans-all cursor-pointer"
-          @click="setBadge('dbs', 2)">
+          @click="setBadge('dbs', 3)">
           <img
             class="w-20px h-20px"
             src="~assets/img/cap-black.svg"
@@ -239,7 +310,7 @@
             class="expandable flex justify-end">
             <span
               class="inline-flex"
-              @click="setBadge('dbs', 2)">
+              @click="setBadge('dbs', 3)">
               <button
                 v-ripple
                 class="pt-1/2 pb-1/2 rounded-sm
@@ -248,7 +319,7 @@
                 type="button"
                 @mouseover="scaleBadge('dbs')"
                 @mouseleave="reduceBadge('dbs')">
-                <span>{{ labelDetail[2] }}</span>
+                <span>{{ labelDetail[3] }}</span>
               </button>
             </span>
           </div>
@@ -258,7 +329,7 @@
         <div
           id="bsb"
           class="timeline-badge trans-all cursor-pointer"
-          @click="setBadge('bsb', 3)">
+          @click="setBadge('bsb', 4)">
           <img
             class="w-20px h-20px"
             src="~assets/img/cap-black.svg"
@@ -308,7 +379,7 @@
             class="expandable flex justify-end">
             <span
               class="inline-flex"
-              @click="setBadge('bsb', 3)">
+              @click="setBadge('bsb', 4)">
               <button
                 v-ripple
                 class="pt-1/2 pb-1/2 rounded-sm
@@ -317,7 +388,7 @@
                 type="button"
                 @mouseover="scaleBadge('bsb')"
                 @mouseleave="reduceBadge('bsb')">
-                <span>{{ labelDetail[3] }}</span>
+                <span>{{ labelDetail[4] }}</span>
               </button>
             </span>
           </div>
@@ -327,7 +398,7 @@
         <div
           id="lf"
           class="timeline-badge trans-all cursor-pointer"
-          @click="setBadge('lf', 4)">
+          @click="setBadge('lf', 5)">
           <img
             class="w-20px  h-20px"
             src="~assets/img/tie.svg"
@@ -376,7 +447,7 @@
             class="expandable flex justify-end">
             <span
               class="inline-flex"
-              @click="setBadge('lf', 4)">
+              @click="setBadge('lf', 5)">
               <button
                 v-ripple
                 class="pt-1/2 pb-1/2 rounded-sm
@@ -385,7 +456,7 @@
                 type="button"
                 @mouseover="scaleBadge('lf')"
                 @mouseleave="reduceBadge('lf')">
-                <span>{{ labelDetail[4] }}</span>
+                <span>{{ labelDetail[5] }}</span>
               </button>
             </span>
           </div>
@@ -395,7 +466,7 @@
         <div
           id="cm"
           class="timeline-badge trans-all cursor-pointer"
-          @click="setBadge('cm', 5)">
+          @click="setBadge('cm', 6)">
           <img
             class="w-20px h-20px"
             src="~assets/img/tie.svg"
@@ -443,7 +514,7 @@
             class="expandable flex justify-end">
             <span
               class="inline-flex"
-              @click="setBadge('cm', 5)">
+              @click="setBadge('cm', 6)">
               <button
                 v-ripple
                 class="pt-1/2 pb-1/2 rounded-sm
@@ -452,7 +523,7 @@
                 type="button"
                 @mouseover="scaleBadge('cm')"
                 @mouseleave="reduceBadge('cm')">
-                <span>{{ labelDetail[5] }}</span>
+                <span>{{ labelDetail[6] }}</span>
               </button>
             </span>
           </div>
@@ -462,7 +533,7 @@
         <div
           id="dut"
           class="timeline-badge trans-all cursor-pointer"
-          @click="setBadge('dut', 6)">
+          @click="setBadge('dut', 7)">
           <img
             class="w-20px h-20px"
             src="~assets/img/cap-black.svg"
@@ -510,7 +581,7 @@
             class="expandable flex justify-end">
             <span
               class="inline-flex"
-              @click="setBadge('dut', 6)">
+              @click="setBadge('dut', 7)">
               <button
                 v-ripple
                 class="pt-1/2 pb-1/2 rounded-sm
@@ -519,7 +590,7 @@
                 type="button"
                 @mouseover="scaleBadge('dut')"
                 @mouseleave="reduceBadge('dut')">
-                <span>{{ labelDetail[6] }}</span>
+                <span>{{ labelDetail[7] }}</span>
               </button>
             </span>
           </div>
@@ -529,7 +600,7 @@
         <div
           id="bac"
           class="timeline-badge trans-all cursor-pointer"
-          @click="setBadge('bac', 7)">
+          @click="setBadge('bac', 8)">
           <img
             class="w-20px h-20px"
             src="~assets/img/cap-black.svg"
@@ -568,7 +639,7 @@
           <div
             class="expandable flex justify-end">
             <div
-              @click="setBadge('bac', 7)">
+              @click="setBadge('bac', 8)">
               <button
                 v-ripple
                 class="pt-1/2 pb-1/2 rounded-sm
@@ -577,7 +648,7 @@
                 type="button"
                 @mouseover="scaleBadge('bac')"
                 @mouseleave="reduceBadge('bac')">
-                <span>{{ labelDetail[7] }}</span>
+                <span>{{ labelDetail[8] }}</span>
               </button>
             </div>
           </div>
@@ -592,7 +663,7 @@ export default {
   data: function() {
     return {
       badgeClicked: null,
-      labelDetail: ['Plus', 'Plus', 'Plus', 'Plus', 'Plus', 'Plus', 'Plus', 'Plus']
+      labelDetail: ['Plus', 'Plus', 'Plus', 'Plus', 'Plus', 'Plus', 'Plus', 'Plus', 'Plus']
     }
   },
   methods: {
