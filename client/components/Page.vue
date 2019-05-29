@@ -40,7 +40,7 @@ export default {
             },
             {
               image: 'date.svg',
-              content: '25 ans'
+              content: '26 ans'
             },
             {
               image: 'position.svg',
@@ -81,7 +81,7 @@ export default {
             },
             {
               image: 'postit-green.svg',
-              content: 'Rechercher un emploi de Product Owner sur Grenoble'
+              content: 'Poursuivre ma carrière en tant que Chef de projet, Scrum Master et Product Owner'
             }
           ]
         },
