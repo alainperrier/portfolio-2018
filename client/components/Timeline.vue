@@ -243,7 +243,7 @@
         <div class="timeline-panel">
           <div class="timeline-heading">
             <p class="flex text-sm mb-4">
-              <span class="text-blue-dark">Sept. 2016 - Déc. 2017</span>
+              <span class="text-blue-dark">Sept. 2015 - Déc. 2016</span>
               <span class="text-grey-middle ml-auto">Scolaire</span>
             </p>
             <h4 class="timeline-title text-mid font-semibold mb-3">Advanced Master | Digital Business Strategy</h4>
@@ -338,7 +338,7 @@
         <div class="timeline-panel">
           <div class="timeline-heading">
             <p class="flex text-sm mb-4">
-              <span class="text-blue-dark">Sept. 2013 - Juin 2016</span>
+              <span class="text-blue-dark">Sept. 2013 - Juin 2015</span>
               <span class="text-grey-middle ml-auto">Scolaire</span>
             </p>
             <h4 class="timeline-title text-mid font-semibold mb-3">Master en Management | Programme Grande École</h4>
