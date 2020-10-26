@@ -40,7 +40,7 @@ export default {
             },
             {
               image: 'date.svg',
-              content: '26 ans'
+              content: '28 ans'
             },
             {
               image: 'position.svg',

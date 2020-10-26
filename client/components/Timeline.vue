@@ -52,10 +52,10 @@
             <p class="mt-4"><span class="font-lato-medium text-sm">Missions</span></p>
             <ul class="mt-1">
               <li class="mt-1">Gestion et pilotage de projets à engagement de résultats (projets au forfait)</li>
-              <li class="mt-1">Encadrement d'une équipe de développeurs et de testeurs (jusqu'à 8 personnes)</li>
-              <li class="mt-1">Méthodologie du cycle en Y qui combine à la fois les principes du cycle en V (spécifications fonctionnelles, documentation technique...) et de SCRUM (daily meeting, sprint, rétrospective, démonstration...)</li>
+              <li class="mt-1">Encadrement d'une équipe de développeurs et de testeurs (jusqu'à 15 personnes)</li>
+              <li class="mt-1">Product Owner et Scrum Master en s'appuyant sur la méthode SCRUM</li>
               <li class="mt-1">Planification, priorisation, gestion de la charge, gestion des risques, suivi opérationnel, clôture de fin de mois...</li>
-              <li class="mt-1">Animation d'ateliers client, de réunions de suivi, de comités de pilotage, de comités inter prestataires...</li>
+              <li class="mt-1">Animation d'ateliers client, de réunions de suivi, de comités de pilotage...</li>
               <li class="mt-1">Recette fonctionnelle, recette technique, rédaction et/ou validation de livrables...</li>
               <li class="mt-1">Avant vente, étude, analyse, reporting...</li>
             </ul>
