@@ -40,7 +40,7 @@ export default {
             },
             {
               image: 'date.svg',
-              content: '28 ans'
+              content: '29 ans'
             },
             {
               image: 'position.svg',
@@ -81,7 +81,7 @@ export default {
             },
             {
               image: 'postit-green.svg',
-              content: 'Poursuivre ma carrière de Chef de projet, Scrum Master et Product Owner'
+              content: 'Poursuivre ma carrière de Chef de projet / Product Owner'
             }
           ]
         },

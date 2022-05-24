@@ -21,7 +21,7 @@
         <div class="timeline-panel">
           <div class="timeline-heading">
             <p class="flex text-sm mb-4">
-              <span class="text-blue-dark">Sept. 2018 - Aujourd'hui</span>
+              <span class="text-blue-dark">Sept. 2018 - Fév. 2022</span>
               <span class="text-grey-middle ml-auto">Professionnel</span>
             </p>
             <h4 class="timeline-title text-mid font-semibold mb-3">Chef de projet informatique</h4>
@@ -38,7 +38,7 @@
                   alt="Logo Gfi Informatique">
               </div>
               <p>
-                GFI Informatique
+                Inetum (ex-Gfi Informatique)
               </p>
             </a>
           </div>
@@ -47,17 +47,19 @@
             class="expand timeline-body text-xs bg-white origin-top-center leading-tight mb-6">
             <div class="mt-6">
               <p class="font-lato-medium text-sm mb-1">Contexte</p>
-              <p>GFI Informatique est une Entreprise de Services du Numérique. J'ai intégré l'agence de Gfi Meylan en tant que chef de projet pour travailler sur des projets à engagement de résultats (projets au forfait). Je travaille notamment pour un projet de développement et de maintenance d'une application pour le CNG. Cette application permet aux étudiants de médecine de passer les Epreuves Classantes Nationales informatisées sur tablette (ECNi) afin d'accéder au troisième cycle.</p>
+              <p>Inetum est une Entreprise de Services du Numérique. J'ai intégré l'agence de Meylan en tant que chef de projet pour travailler sur des projets à engagement de résultats (ou au forfait). J'ai travaillé notamment pour un projet de développement et de maintenance d'une application pour le CNG. Cette application permet aux étudiants de médecine de passer les Epreuves Classantes Nationales informatisées sur tablette (ECNi) afin d'accéder au troisième cycle.</p>
             </div>
             <p class="mt-4"><span class="font-lato-medium text-sm">Missions</span></p>
             <ul class="mt-1">
               <li class="mt-1">Gestion et pilotage de projets à engagement de résultats (projets au forfait)</li>
-              <li class="mt-1">Encadrement d'une équipe de développeurs et de testeurs (jusqu'à 15 personnes)</li>
-              <li class="mt-1">Product Owner et Scrum Master en s'appuyant sur la méthode SCRUM</li>
-              <li class="mt-1">Planification, priorisation, gestion de la charge, gestion des risques, suivi opérationnel, clôture de fin de mois...</li>
-              <li class="mt-1">Animation d'ateliers client, de réunions de suivi, de comités de pilotage...</li>
+              <li class="mt-1">Management d'une équipe de développeurs et de testeurs (jusqu'à 15 personnes)</li>
+              <li class="mt-1">Product Owner et Scrum Master en s'appuyant sur les méthodes agiles (SCRUM / LEAN)</li>
+              <li class="mt-1">Gestion du cycle de vie produit (valeur, qualité, sécurité, performance, jalons...)</li>
+              <li class="mt-1">Planification, priorisation, gestion des charges, gestion des risques, suivi opérationnel, clôture de fin de mois...</li>
+              <li class="mt-1">Animation d'ateliers client, de réunions de suivi, de comités de pilotage, de rétrospectives...</li>
               <li class="mt-1">Recette fonctionnelle, recette technique, rédaction et/ou validation de livrables...</li>
               <li class="mt-1">Avant vente, étude, analyse, reporting...</li>
+              <li class="mt-1">Audit ISO 27001 sur le projet ECNi ayant permis d'obtenir la certification pour l'agence de Meylan</li>
             </ul>
           </div>
           <div

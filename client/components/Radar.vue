@@ -244,7 +244,7 @@ export default {
         'Coordination, Team Building, Performance, Engagement',
         'SCRUM, LEAN, KANBAN',
         'Formation, Accompagnement, Communication',
-        'Veille, Audit, Etude, Recommandations',
+        'Veille, Audit, Etude, Avant vente',
         'SEO/SEA, Social Media, Blogging, Emailing',
         'Collecte, Traitement, Analyse',
         'Survey, A/B Testing, Personae, Wireframe, User Interface',
