@@ -91,7 +91,7 @@
         <div class="timeline-panel">
           <div class="timeline-heading">
             <p class="flex text-sm mb-4">
-              <span class="text-blue-dark">Sept. 2018 - Fév. 2022</span>
+              <span class="text-blue-dark">Septembre 2018 - Février 2022</span>
               <span class="text-grey-middle ml-auto">Professionnel</span>
             </p>
             <h4 class="timeline-title text-mid font-semibold mb-3">Chef de projet informatique</h4>
@@ -164,7 +164,7 @@
         <div class="timeline-panel">
           <div class="timeline-heading">
             <div class="flex text-sm mb-4">
-              <p class="text-blue-dark">Nov. 2015 - Juin 2018</p>
+              <p class="text-blue-dark">Novembre 2015 - Juin 2018</p>
               <p class="text-grey-middle ml-auto">Professionnel</p>
             </div>
             <h4 class="timeline-title text-mid font-semibold mb-3">Chef de projet web | Partenaire associé</h4>
@@ -246,7 +246,7 @@
         <div class="timeline-panel">
           <div class="timeline-heading">
             <p class="flex text-sm mb-4">
-              <span class="text-blue-dark">Mai 2015 - Déc. 2017</span>
+              <span class="text-blue-dark">Mai 2015 - Décembre 2017</span>
               <span class="text-grey-middle ml-auto">Professionnel</span>
             </p>
             <h4 class="timeline-title text-mid font-semibold mb-3">Chef de projet digital</h4>
@@ -315,7 +315,7 @@
         <div class="timeline-panel">
           <div class="timeline-heading">
             <p class="flex text-sm mb-4">
-              <span class="text-blue-dark">Sept. 2015 - Déc. 2016</span>
+              <span class="text-blue-dark">Septembre 2015 - Décembre 2016</span>
               <span class="text-grey-middle ml-auto">Scolaire</span>
             </p>
             <h4 class="timeline-title text-mid font-semibold mb-3">Advanced Master | Digital Business Strategy</h4>
@@ -410,7 +410,7 @@
         <div class="timeline-panel">
           <div class="timeline-heading">
             <p class="flex text-sm mb-4">
-              <span class="text-blue-dark">Sept. 2013 - Juin 2015</span>
+              <span class="text-blue-dark">Septembre 2013 - Juin 2015</span>
               <span class="text-grey-middle ml-auto">Scolaire</span>
             </p>
             <h4 class="timeline-title text-mid font-semibold mb-3">Master en Management | Programme Grande École</h4>
@@ -614,7 +614,7 @@
         <div class="timeline-panel">
           <div class="timeline-heading">
             <p class="flex text-sm mb-4">
-              <span class="text-blue-dark">Sept. 2011 - Juin 2013</span>
+              <span class="text-blue-dark">Septembre 2011 - Juin 2013</span>
               <span class="text-grey-middle ml-auto">Scolaire</span>
             </p>
             <h4 class="timeline-title font-semibold text-mid mb-3">DUT | Métiers du Multimédia et de l'Internet</h4>
@@ -681,7 +681,7 @@
         <div class="timeline-panel">
           <div class="timeline-heading">
             <p class="flex text-sm mb-4">
-              <span class="text-blue-dark">Sept. 2008 - Juin 2011</span>
+              <span class="text-blue-dark">Septembre 2008 - Juin 2011</span>
               <span class="text-grey-middle ml-auto">Scolaire</span>
             </p>
             <h4 class="timeline-title font-semibold text-mid mb-3">BAC | Sciences et Technologies du Management et de la Gestion</h4>
