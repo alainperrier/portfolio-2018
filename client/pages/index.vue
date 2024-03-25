@@ -69,7 +69,7 @@ export default {
           hid: 'description',
           name: 'description',
           content:
-            "Alain Perrier, chef de projet, Product Owner et consultant digital sur Grenoble (Isère). Fort de mes 3 ans d'expérience et de ma double casquette technique et business, je suis prêt à relever de nouveaux défis."
+            "Alain Perrier, chef de projet, Product Owner et consultant digital sur Grenoble (Isère). Fort de mes 8 ans d'expérience et de ma double casquette technique et business, je suis prêt à relever de nouveaux défis."
         },
         {
           hid: 'og:title',
@@ -82,7 +82,7 @@ export default {
           property: 'og:description',
           name: 'og:description',
           content:
-            "Alain Perrier, chef de projet, Product Owner et consultant digital sur Grenoble (Isère). Fort de mes 3 ans d'expérience et de ma double casquette technique et business, je suis prêt à relever de nouveaux défis."
+            "Alain Perrier, chef de projet, Product Owner et consultant digital sur Grenoble (Isère). Fort de mes 8 ans d'expérience et de ma double casquette technique et business, je suis prêt à relever de nouveaux défis."
         },
         {
           hid: 'og:url',

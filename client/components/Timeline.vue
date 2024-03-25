@@ -8,11 +8,81 @@
       <h4 class="text-base smp:text-base sml:text-base md:text-lg lg:text-2xl xl:text-3xl xxl:text-3xl uppercase mt-2">Scolaire et professionnel</h4>
     </div>
     <ul class="timeline overflow-hidden">
+      <li class="timeline">
+        <div
+          id="ma"
+          class="timeline-badge trans-all cursor-pointer"
+          @click="setBadge('ma', 0)">
+          <img
+            class="w-20px h-20px"
+            src="~assets/img/tie.svg"
+            alt="Expérience professionnelle">
+        </div>
+        <div class="timeline-panel">
+          <div class="timeline-heading">
+            <p class="flex text-sm mb-4">
+              <span class="text-blue-dark">Février 2022 - Aujourd'hui</span>
+              <span class="text-grey-middle ml-auto">Professionnel</span>
+            </p>
+            <h4 class="timeline-title text-mid font-semibold mb-3">Senior Technical Program Manager</h4>
+            <a
+              class="inline-flex trans-all text-grey-dark flex flex-row items-center"
+              href="https://www.mastercard.fr/fr-fr.html"
+              target="_blank"
+              rel="noopener noreferrer">
+              <div class="w-20px h-16-66px mr-3 flex-no-shrink">
+                <img
+                  src="~assets/img/mastercard.svg"
+                  class="w-full"
+                  alt="logo Mastercard">
+              </div>
+              <p>
+                Mastercard Transaction Services
+              </p>
+            </a>
+            <p class="text-xs mt-2">En tant que prestataire (Koders) jusqu'en février 2023</p>
+          </div>
+          <div
+            v-expand="badgeClicked == 'ma'"
+            class="expand timeline-body text-xs bg-white origin-top-center leading-tight mb-6">
+            <div class="mt-6">
+              <p>Mastercard Transaction Services a fait l'acquisition de Homesend en 2021, une fintech ayant développé une solution de paiement B2B internationale.</p>
+              <p>C'est dans ce contexte d'acquisition et d'intégration de Homesend que j'ai rejoint l'aventure Mastercard Transaction Services.</p>
+            </div>
+            <div class="mt-4"><span class="font-lato-medium text-sm">Missions</span></div>
+            <ul class="mt-1">
+              <li>Gestion de projets informatiques dans un environnement agile (SCRUM) et international</li>
+              <li class="mt-1">Gestion des mises en production / release manager (~100 micro services, > 10 équipes, 3 environnements)</li>
+              <li class="mt-1">Lead projet d’un domaine fonctionnel composé de 3 équipes (SAFe)</li>
+              <li class="mt-1">Coordination transversale (DevOps, sécurité, produit, IT...)</li>
+              <li class="mt-1">Planification, priorisation, gestion des charges, gestion des risques, suivi opérationnel</li>
+              <li class="mt-1">Définition / implémentation de processus (SDLC, change management...)</li>
+            </ul>
+          </div>
+          <div
+            class="expandable flex justify-end">
+            <span
+              class="inline-flex"
+              @click="setBadge('ma', 0)">
+              <button
+                v-ripple
+                class="pt-1/2 pb-1/2 rounded-sm
+                trans-all w-50px bg-blue-light flex flex-no-shrink items-center justify-center truncate text-white ml-auto font-lato-medium shadow
+                p-2 text-xs"
+                type="button"
+                @mouseover="scaleBadge('ma')"
+                @mouseleave="reduceBadge('ma')">
+                <span>{{ labelDetail[0] }}</span>
+              </button>
+            </span>
+          </div>
+        </div>
+      </li>
       <li class="timeline-inverted">
         <div
           id="gfi"
           class="timeline-badge trans-all cursor-pointer"
-          @click="setBadge('gfi', 0)">
+          @click="setBadge('gfi', 1)">
           <img
             class="w-20px h-20px"
             src="~assets/img/tie.svg"
@@ -66,7 +136,7 @@
             class="expandable flex justify-end">
             <span
               class="inline-flex"
-              @click="setBadge('gfi', 0)">
+              @click="setBadge('gfi', 1)">
               <button
                 v-ripple
                 class="pt-1/2 pb-1/2 rounded-sm
@@ -75,7 +145,7 @@
                 type="button"
                 @mouseover="scaleBadge('gfi')"
                 @mouseleave="reduceBadge('gfi')">
-                <span>{{ labelDetail[0] }}</span>
+                <span>{{ labelDetail[1] }}</span>
               </button>
             </span>
           </div>
@@ -85,7 +155,7 @@
         <div
           id="lastudio"
           class="timeline-badge trans-all cursor-pointer"
-          @click="setBadge('lastudio', 1)">
+          @click="setBadge('lastudio', 2)">
           <img
             class="w-20px h-20px"
             src="~assets/img/tie.svg"
@@ -148,7 +218,7 @@
             class="expandable flex justify-end">
             <span
               class="inline-flex"
-              @click="setBadge('lastudio', 1)">
+              @click="setBadge('lastudio', 2)">
               <button
                 v-ripple
                 class="pt-1/2 pb-1/2 rounded-sm
@@ -157,7 +227,7 @@
                 type="button"
                 @mouseover="scaleBadge('lastudio')"
                 @mouseleave="reduceBadge('lastudio')">
-                <span>{{ labelDetail[1] }}</span>
+                <span>{{ labelDetail[2] }}</span>
               </button>
             </span>
           </div>
@@ -167,7 +237,7 @@
         <div
           id="bp"
           class="timeline-badge trans-all cursor-pointer"
-          @click="setBadge('bp', 2)">
+          @click="setBadge('bp', 3)">
           <img
             class="w-20px h-20px"
             src="~assets/img/tie.svg"
@@ -217,7 +287,7 @@
             class="expandable flex justify-end">
             <span
               class="inline-flex"
-              @click="setBadge('bp', 2)">
+              @click="setBadge('bp', 3)">
               <button
                 v-ripple
                 class="pt-1/2 pb-1/2 rounded-sm
@@ -226,7 +296,7 @@
                 type="button"
                 @mouseover="scaleBadge('bp')"
                 @mouseleave="reduceBadge('bp')">
-                <span>{{ labelDetail[2] }}</span>
+                <span>{{ labelDetail[3] }}</span>
               </button>
             </span>
           </div>
@@ -236,7 +306,7 @@
         <div
           id="dbs"
           class="timeline-badge trans-all cursor-pointer"
-          @click="setBadge('dbs', 3)">
+          @click="setBadge('dbs', 4)">
           <img
             class="w-20px h-20px"
             src="~assets/img/cap-black.svg"
@@ -312,7 +382,7 @@
             class="expandable flex justify-end">
             <span
               class="inline-flex"
-              @click="setBadge('dbs', 3)">
+              @click="setBadge('dbs', 4)">
               <button
                 v-ripple
                 class="pt-1/2 pb-1/2 rounded-sm
@@ -321,7 +391,7 @@
                 type="button"
                 @mouseover="scaleBadge('dbs')"
                 @mouseleave="reduceBadge('dbs')">
-                <span>{{ labelDetail[3] }}</span>
+                <span>{{ labelDetail[4] }}</span>
               </button>
             </span>
           </div>
@@ -331,7 +401,7 @@
         <div
           id="bsb"
           class="timeline-badge trans-all cursor-pointer"
-          @click="setBadge('bsb', 4)">
+          @click="setBadge('bsb', 5)">
           <img
             class="w-20px h-20px"
             src="~assets/img/cap-black.svg"
@@ -381,7 +451,7 @@
             class="expandable flex justify-end">
             <span
               class="inline-flex"
-              @click="setBadge('bsb', 4)">
+              @click="setBadge('bsb', 5)">
               <button
                 v-ripple
                 class="pt-1/2 pb-1/2 rounded-sm
@@ -390,7 +460,7 @@
                 type="button"
                 @mouseover="scaleBadge('bsb')"
                 @mouseleave="reduceBadge('bsb')">
-                <span>{{ labelDetail[4] }}</span>
+                <span>{{ labelDetail[5] }}</span>
               </button>
             </span>
           </div>
@@ -400,7 +470,7 @@
         <div
           id="lf"
           class="timeline-badge trans-all cursor-pointer"
-          @click="setBadge('lf', 5)">
+          @click="setBadge('lf', 6)">
           <img
             class="w-20px  h-20px"
             src="~assets/img/tie.svg"
@@ -449,7 +519,7 @@
             class="expandable flex justify-end">
             <span
               class="inline-flex"
-              @click="setBadge('lf', 5)">
+              @click="setBadge('lf', 6)">
               <button
                 v-ripple
                 class="pt-1/2 pb-1/2 rounded-sm
@@ -458,7 +528,7 @@
                 type="button"
                 @mouseover="scaleBadge('lf')"
                 @mouseleave="reduceBadge('lf')">
-                <span>{{ labelDetail[5] }}</span>
+                <span>{{ labelDetail[6] }}</span>
               </button>
             </span>
           </div>
@@ -468,7 +538,7 @@
         <div
           id="cm"
           class="timeline-badge trans-all cursor-pointer"
-          @click="setBadge('cm', 6)">
+          @click="setBadge('cm', 7)">
           <img
             class="w-20px h-20px"
             src="~assets/img/tie.svg"
@@ -516,7 +586,7 @@
             class="expandable flex justify-end">
             <span
               class="inline-flex"
-              @click="setBadge('cm', 6)">
+              @click="setBadge('cm', 7)">
               <button
                 v-ripple
                 class="pt-1/2 pb-1/2 rounded-sm
@@ -525,7 +595,7 @@
                 type="button"
                 @mouseover="scaleBadge('cm')"
                 @mouseleave="reduceBadge('cm')">
-                <span>{{ labelDetail[6] }}</span>
+                <span>{{ labelDetail[7] }}</span>
               </button>
             </span>
           </div>
@@ -535,7 +605,7 @@
         <div
           id="dut"
           class="timeline-badge trans-all cursor-pointer"
-          @click="setBadge('dut', 7)">
+          @click="setBadge('dut', 8)">
           <img
             class="w-20px h-20px"
             src="~assets/img/cap-black.svg"
@@ -583,7 +653,7 @@
             class="expandable flex justify-end">
             <span
               class="inline-flex"
-              @click="setBadge('dut', 7)">
+              @click="setBadge('dut', 8)">
               <button
                 v-ripple
                 class="pt-1/2 pb-1/2 rounded-sm
@@ -592,7 +662,7 @@
                 type="button"
                 @mouseover="scaleBadge('dut')"
                 @mouseleave="reduceBadge('dut')">
-                <span>{{ labelDetail[7] }}</span>
+                <span>{{ labelDetail[8] }}</span>
               </button>
             </span>
           </div>
@@ -602,7 +672,7 @@
         <div
           id="bac"
           class="timeline-badge trans-all cursor-pointer"
-          @click="setBadge('bac', 8)">
+          @click="setBadge('bac', 9)">
           <img
             class="w-20px h-20px"
             src="~assets/img/cap-black.svg"
@@ -641,7 +711,7 @@
           <div
             class="expandable flex justify-end">
             <div
-              @click="setBadge('bac', 8)">
+              @click="setBadge('bac', 9)">
               <button
                 v-ripple
                 class="pt-1/2 pb-1/2 rounded-sm
@@ -650,7 +720,7 @@
                 type="button"
                 @mouseover="scaleBadge('bac')"
                 @mouseleave="reduceBadge('bac')">
-                <span>{{ labelDetail[8] }}</span>
+                <span>{{ labelDetail[9] }}</span>
               </button>
             </div>
           </div>
@@ -665,7 +735,7 @@ export default {
   data: function() {
     return {
       badgeClicked: null,
-      labelDetail: ['Plus', 'Plus', 'Plus', 'Plus', 'Plus', 'Plus', 'Plus', 'Plus', 'Plus']
+      labelDetail: ['Plus', 'Plus', 'Plus', 'Plus', 'Plus', 'Plus', 'Plus', 'Plus', 'Plus', 'Plus']
     }
   },
   methods: {

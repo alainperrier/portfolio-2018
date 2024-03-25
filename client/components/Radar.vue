@@ -213,7 +213,7 @@
           max-w-150px sml:max-w-150px smp:max-w-150px md:max-w-150px lg:max-w-150px xl:max-w-150px xxl:max-w-150px"
           @mouseover="setSkill(7)"
           @mouseleave="setSkill(null)">
-          Développement web
+          IT
         </span>
       </div>
       <div
@@ -241,14 +241,14 @@ export default {
       animDone: false,
       skillItem: null,
       skillDetail: [
-        'Coordination, Team Building, Performance, Engagement',
-        'SCRUM, LEAN, KANBAN',
+        'Leadership, Coordination, Team Building, Performance',
+        'SCRUM, LEAN, KANBAN, SAFe, Cycle en V',
         'Formation, Accompagnement, Communication',
         'Veille, Audit, Etude, Avant vente',
         'SEO/SEA, Social Media, Blogging, Emailing',
         'Collecte, Traitement, Analyse',
-        'Survey, A/B Testing, Personae, Wireframe, User Interface',
-        'Workflow, Backend, Frontend, Deployment'
+        'Persona, User journey, Wireframe, User Interface, A/B testing',
+        'Architecture, Backend, Frontend, DevOps'
       ]
     }
   },

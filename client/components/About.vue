@@ -34,7 +34,7 @@
             alt="Expérience">
         </span>
         <div class="max-w-100px smp:max-w-150px sml:max-w-100px md:max-w-none lg:max-w-none xl:max-w-none xxl:max-w-none">
-          <p><span class="font-semibold">+ de 6 ans</span> d'expérience</p>
+          <p><span class="font-semibold">+ de 8 ans</span> d'expérience</p>
         </div>
       </li>
       <li

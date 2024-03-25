@@ -13,4 +13,4 @@ echo "" | sudo -S service php7.2-fpm reload
 cd /home/forge/alainperrier.me/client
 npm install
 npm run build
-pm2 restart ap-portfolio
+pm2 restart "npm run start"
